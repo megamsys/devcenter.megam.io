@@ -1,11 +1,11 @@
 ---
 title: How to launch Java - continious integration jenkins in MegamAfrica
-slug: launching-jenkins
-date_published: 2016-05-09T13:24:25.010Z
-date_updated:   2016-05-27T13:29:43.718Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch Java - continious integration jenkins in MegamAfrica
 ---
 
-###**Introduction**
+### **Introduction**
 
 Jenkins is the leading open-source automation server. Built with Java, it provides over 1000 plugins to support automating virtually anything, so that humans can actually spend their time doing things machines cannot.
 
@@ -15,7 +15,7 @@ This tutorial will guide you in launching a J2EE web application () in MegamAfri
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 
-###**Prerequisites**
+### **Prerequisites**
 
 * You are running Ubuntu 14.04 or Linux workstation.
 
@@ -28,14 +28,14 @@ This tutorial will guide you in launching a J2EE web application () in MegamAfri
 You have to install openssh-server for ssh access.
 
 	sudo apt-get install openssh-server
-    
-Check SSH working properly 
+
+Check SSH working properly
 
 	ps aux | grep sshd
-    
+
 In this tutorial you will see the steps to launch the J2EE using jenkins
 
-###Step-1 Fork jenkins
+### Step-1 Fork jenkins
 
 * Fork jenkins from https://github.com/verticeapps/java_jenkins.git
 
@@ -44,12 +44,12 @@ In this tutorial you will see the steps to launch the J2EE using jenkins
 * The jenkins repository is forked into your git repository
 
 
-###Step-2 Launch the app
+### Step-2 Launch the app
 1. Go to MegamAfrica Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
-3. Click Java Icon.A window will pop up for your repository selection. 
+3. Click Java Icon.A window will pop up for your repository selection.
 
 4. Pick a repository by choosing your repository.
 
@@ -66,7 +66,7 @@ In this tutorial you will see the steps to launch the J2EE using jenkins
 *Rember that when you select memory its upto `2GB`
 
 
-####Buildpack for java
+#### Buildpack for java
 Java's default build pack get's going by kicking of maven. We plan to support `ant`, `gradle` in the future
 
 	#!/bin/bash
@@ -89,7 +89,7 @@ Java's default build pack get's going by kicking of maven. We plan to support `a
 
 
 
-###**Step-3 Open Your Web browser**
+### **Step-3 Open Your Web browser**
   You can access your web page using `http://IP_ADDRESS:8080`
 
 Then the below UI will be open
@@ -107,19 +107,12 @@ Here you will click the `jenkins` link.
 
 ![](/content/images/2016/05/j3.png)
 
-  
-###Conclusion
+
+### Conclusion
 
 These are the very simple steps to launch a J2EE web app (jenkins) using github repository.
 
 
-###Deploy Java app now 
+### Deploy Java app now
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
-
-
-
-
-
-
-

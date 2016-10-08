@@ -1,20 +1,20 @@
 ---
 title: How to Launch Ubuntu 14.04 in MegamAfrica
-slug: launch-ubuntu
-date_published: 2016-05-09T10:43:06.342Z
-date_updated:   2016-05-27T11:34:25.986Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to Launch Ubuntu 14.04 in MegamAfrica
 ---
 
-###Introduction
+### Introduction
 
-Ubuntu is a Debian-based Linux operating system and distribution for personal computers, smartphones and network servers. It uses Unity as its default user interface. It is based on free software and named after the Southern African philosophy of ubuntu. 
+Ubuntu is a Debian-based Linux operating system and distribution for personal computers, smartphones and network servers. It uses Unity as its default user interface. It is based on free software and named after the Southern African philosophy of ubuntu.
 
 This tutorial will guide you in setting up a Ubuntu 14.04 VM in MegamAfrica.
 
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
-###Prerequisites
+### Prerequisites
 
 * You are running Ubuntu 14.04 or Linux workstation.
 
@@ -32,8 +32,8 @@ You have to install openssh-server for ssh access.
 To check the ssh is properly installed in our system
 
 	$ ps aux | grep sshd
-    
-###Step - 1 Creating Ubuntu VM
+
+### Step - 1 Creating Ubuntu VM
 
 This initial section contains everything you need to get Ubuntu and running on your server.
 
@@ -49,7 +49,7 @@ First, ensure the user can login to https://console.megamafrica.com.
 
 * click the Create button. it will create the virtual machine.
 
-###Step - 2 Access the Ubuntu VM
+### Step - 2 Access the Ubuntu VM
 
 Next, Go to the Dashboard and click the domain name a new window will open.
 
@@ -61,17 +61,17 @@ Next, Go to the Dashboard and click the domain name a new window will open.
 
 * VM Logs shows all the running process in VM.
 
-* You need to access the Virtual Machine from a terminal. 
+* You need to access the Virtual Machine from a terminal.
 
 * You can download the SSH Keys from SSH Keys tab or Overview page. Use this key to login to your virtual machine using the following command,
 
 		$ ssh -i path to/<private_key filename> root@<ipaddress>
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to launch Ubuntu virtual machine. This is a good head-start for launching a Ubuntu in MegamAfrica.
 
-###Deploy your Ubuntu VM now
+### Deploy your Ubuntu VM now
 
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

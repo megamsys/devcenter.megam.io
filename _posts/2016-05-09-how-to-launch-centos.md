@@ -1,11 +1,10 @@
 ---
 title: How to Launch CentOS 7.2 in MegamAfrica
-slug: how-to-launch-centos
-date_published: 2016-05-09T12:33:50.780Z
-date_updated:   2016-05-27T10:30:33.152Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to Launch CentOS 7.2 in MegamAfrica
 ---
-
-###Introduction
+### Introduction
 
 The CentOS Linux distribution is a stable, predictable, manageable and reproducible platform derived from the sources of Red Hat Enterprise Linux (RHEL). CentOS Linux is developed by a small but growing team of core developers. In turn the core developers are supported by an active user community including system administrators, network administrators, managers, core Linux contributors, and Linux enthusiasts from around the world.
 
@@ -28,7 +27,7 @@ To follow this tutorial :
 You have to install openssh-server for ssh access.
 
 	$ sudo yum install openssh-server
-    
+
 To check the ssh is properly installed in our system
 
 	$ ps aux | grep sshd
@@ -37,7 +36,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get CentOS and running on your server.
 
-First, ensure the user can login to https://console.megamafrica.com. 
+First, ensure the user can login to https://console.megamafrica.com.
 
 * Go to the Market Places.
 
@@ -61,7 +60,7 @@ Next, Go to the Dashboard and click the domain name a new window will open.
 
 * VM Logs shows all the running process in VM.
 
-* You need to access the Virtual Machine from a terminal. 
+* You need to access the Virtual Machine from a terminal.
 
 * You can download the SSH Keys from SSH Keys tab or Overview page. Use this key to login to your virtual machine using the following command,
 
@@ -75,5 +74,3 @@ These are the very simple steps to launch CentOS in virtual machine. This is a g
 
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
-
-

@@ -1,11 +1,11 @@
 ---
 title: How to Launch Debian Jessie in MegamAfrica
-slug: how-to-launch-debian-jessie
-date_published: 2016-05-09T12:59:54.449Z
-date_updated:   2016-05-27T10:30:15.537Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to Launch Debian Jessie in MegamAfrica
 ---
 
-###Introduction
+### Introduction
 
 Debian is a Unix-like computer operating system that is composed entirely of free software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian. Three main branches are offered: Stable, Testing and Unstable.
 
@@ -32,7 +32,7 @@ You have to install openssh-server for ssh access.
 To check the ssh is properly installed in our system
 
 	$ ps aux | grep sshd
-    
+
 ###Step - 1 Creating Debian Jessie VM
 
 This initial section contains everything you need to get Debian Jessie and running on your server.
@@ -61,12 +61,12 @@ Next, Go to the Dashboard and click the domain name a new window will open.
 
 * VM Logs shows all the running process in VM.
 
-* You need to access the Virtual Machine from a terminal. 
+* You need to access the Virtual Machine from a terminal.
 
 * You can download the SSH Keys from SSH Keys tab or Overview page. Use this key to login to your virtual machine using the following command,
 
 	    $ ssh -i path to/<private_key filename> root@<ipaddress>
-    
+
 
 ###Conclusion
 
@@ -76,4 +76,3 @@ These are the very simple steps to launch Debian Jessie virtual machine. This is
 
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
-

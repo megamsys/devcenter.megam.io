@@ -1,11 +1,11 @@
 ---
 title: How to launch Java - spring-webflow in MegamAfrica
-slug: how-to-launch-spring-webflow
-date_published: 2016-05-09T14:58:36.118Z
-date_updated:   2016-05-27T13:27:33.453Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch Java - spring-webflow in MegamAfrica
 ---
 
-###**Introduction**
+### **Introduction**
 Spring Web Flow facilitates building the j2EE based web applications that require guided navigation -- e.g. a shopping cart, flight check-in, a loan application, and many others. In contrast to stateless, free-form navigation such use cases have a clear start and end point, one or more screens to go through in a specific order, and a set of changes that are not finalized to the end.
 
 This tutorial will guide you in launching a J2EE web application (spring-webflow) in MegamAfrica.
@@ -45,7 +45,7 @@ In this tutorial you will see the steps to launch the J2EE using Spring-webflow 
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
-3. Click Java Icon.A window will pop up for your git repository selection. 
+3. Click Java Icon.A window will pop up for your git repository selection.
 
 4. Pick a repository by choosing your repository.
 
@@ -68,7 +68,7 @@ Java's default build pack get's going by kicking of maven. We plan to support `a
 	#!/bin/bash
 	#Java builder WAR
 
-	#megam_java_builder/build tomcat 
+	#megam_java_builder/build tomcat
 
 	megam_home="/var/lib/megam/gulp"
 	local_repo="/home/megam/tomcat/webapps"
@@ -85,10 +85,10 @@ Java's default build pack get's going by kicking of maven. We plan to support `a
       cd $filename
       mvn clean
       mvn install -Dmaven.test.skip=true -U
-      
+
 	stop java
 	start java
-    
+
 ###**Step-3 Open Your Web browser**
   You can access your web page using `http://IP_ADDRESS:8080`
 
@@ -105,14 +105,13 @@ Here you will click the webflow show case link.
 ![](/content/images/2016/05/2.png)
 
 ![](/content/images/2016/05/3-1.png)
-   
-  
+
+
 
 ###Conclusion
 
 These are the very simple steps to launch a J2EE web app (spring-webflow) using github repository.
 
-###Deploy Java app now 
+###Deploy Java app now
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
-

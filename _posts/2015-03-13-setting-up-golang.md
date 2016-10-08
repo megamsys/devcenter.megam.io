@@ -1,39 +1,38 @@
 ---
 title: Setting up Golang
-slug: setting-up-golang
-date_published: 2015-03-13T07:21:36.209Z
-date_updated:   2015-08-12T08:01:44.396Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Setting up Golang
 ---
-
-###Introduction
+### Introduction
 
 Go, also commonly referred to as golang, is a programming language initially developed at Google in 2007 by `Robert Griesemer, Rob Pike, and Ken Thompson`.
 
->**Go** is: 
+>**Go** is:
 >
 • open source
 >
-• concurrent 
+• concurrent
 >
-• garbage-collected 
+• garbage-collected
 >
-• efficient 
+• efficient
 >
-• scalable 
+• scalable
 >
-• simple 
+• simple
 >
-• fun 
+• fun
 >
-• boring (to some) 
+• boring (to some)
 
 [http://golang.org](http://golang.org)
 
-####Setup
+#### Setup
 
 There are many ways to configure the Go development environment on your computer, you can choose any one you like. But i suggest following ways.
 
-######Way 1 : Install Go Package
+###### Way 1 : Install Go Package
 
 The golang Debian package may have already made its way into your Ubuntu distribution. Try this:
 
@@ -46,7 +45,7 @@ export the settings you’re gonna need to ~/.bashrc file:
 `$ export GOBIN=/usr/bin/go`
 
 
-######Way 2 : From Binary
+###### Way 2 : From Binary
 
 Download [golang 1.4+ amd64 linux](https://storage.googleapis.com/golang/go1.4.2.linux-amd64.tar.gz),  create a `~/golang` directory, and untar into that directory.
 
@@ -64,7 +63,7 @@ Now setup Go binary path. Use the **$GOROOT** and **$PATH** environment variable
 >
 `$ export PATH=$PATH:$GOROOT/bin`
 
-######Way 3 : From Source
+###### Way 3 : From Source
 
 Go will install to a directory named go. Change to the directory that will be its parent and make sure the go directory does not exist. Then clone the repository and check out the latest release tag:
 
@@ -101,9 +100,9 @@ Try this,
 go version go1.4.2 linux/amd64
 
 
-####Set up your work environment
+#### Set up your work environment
 
-######Introducing workspaces
+###### Introducing workspaces
 
 Your Go code is kept in a workspace. A workspace contains many source repositories (git, hg). The Go tool understands the layout of a workspace. You don't need a Makefile. A workspace is a directory hierarchy with three directories at its root:
 
@@ -144,11 +143,11 @@ A typical workspace would contain many source repositories containing many packa
 
 Go commands all rely on one important environment variable which is called `$GOPATH`. Notice that this is not the `$GOROOT` where Go is installed. This variable points to the workspace of Go in your computer.
 
-######The GOPATH environment variable
+###### The GOPATH environment variable
 
 The GOPATH environment variable specifies the location of your workspace. It is likely the only environment variable you'll need to set when developing Go code.
 
-To get started, create a workspace directory and set GOPATH accordingly. Your 
+To get started, create a workspace directory and set GOPATH accordingly. Your
 workspace can be located wherever you like, but we'll use $HOME/go in this document.
 Note that this must not be the same path as your Go installation.
 
@@ -161,7 +160,7 @@ For convenience, add the workspace's bin subdirectory to your PATH:
 >`$ export PATH=$PATH:$GOPATH/bin`
 
 
-######Testing with Workspace
+###### Testing with Workspace
 
 To compile and run a simple program, first choose a package path (we'll use github.com/user/hello) and create a corresponding package directory inside your workspace:
 
@@ -198,4 +197,3 @@ You can now run the program by typing its full path at the command line:
 Hello, world.
 
 If you see the "Hello, world" message then your Go installation is working
-

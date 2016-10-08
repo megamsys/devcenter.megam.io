@@ -1,26 +1,26 @@
 ---
 title: Getting started Atharva storage in MegamAfrica
-slug: getting-started-atharva-storage-in-megamafrica
-date_published: 2016-06-17T14:42:05.788Z
-date_updated:   2016-06-17T14:43:54.393Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Getting started Atharva storage in MegamAfrica
 ---
 
-###Introduction
+### Introduction
 **Atharva Storage** - MegamAfrica is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
 
 This tutorial will guide you creating atharva storage  in MegamAfrica.
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
-###Prerequisites
+### Prerequisites
 
 * You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
-###Create Atharva storage in MegamAfrica
+### Create Atharva storage in MegamAfrica
 
 * First, ensure the user can login to https://console.megamafrica.com.
 
-* Upon successful signin, look for the icon 
+* Upon successful signin, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
  at the top right hand corner named `Storage`
 ![](/content/images/2016/06/atharva-1.jpg)
@@ -44,11 +44,11 @@ This tutorial will guide you creating atharva storage  in MegamAfrica.
 
 Logon https://console.megamafrica.com goto `storage` place. You can see your bucket, and the uploaded files are displayed.
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to create an atharva storage in MegamAfrica. MegamAfrica website contain lot of feature - very easy to launch Virtual Machines, Apps, Services,and providing atharva storage in MegamAfrica.
 
-######Deploy a Atharva storage now
+###### Deploy a Atharva storage now
 
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
