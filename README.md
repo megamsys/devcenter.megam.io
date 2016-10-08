@@ -15,9 +15,9 @@ There are 3 steps
 - Step 3: Push the changes
 
 
-#Step 1: Lets fork.
+# Step 1: Lets fork.
 
-##1. Fork & Clone this repo.
+## 1. Fork & Clone this repo.
 
 ```
 
@@ -25,35 +25,42 @@ $ git clone https://github.com/<id>/devcenter.megam.io
 
 ```
 
-#Step 2: Local test
+# Step 2: Local test
 
-Install hexo
-
-```
-sudo  npm install -g hexo-cli
+## Install jekyll
 
 ```
-Add your new technical doc as markup to your master.
-
-```
-hexo new "__your_blog_title_here_"
+bundle install
 
 ```
 
-Go to _sources directory, and edit the .md files.
+## Add your new technical doc as markup to your master.
 
 ```
 
-hexo server
+# Copy / Paste an article from _posts/ and create your own __your_blog_title_here_.md
 
 ```
 
-Verify if your post looks good.
 
-http://localhost:4000
+## Go to `_posts` directory, and edit the .md files.
 
 
-#Step 3: Deploying your documentation
+## Make sure you have the `author name/picture from https://www.megam.io/about` added
+
+## Verify if your post looks good.
+
+```
+
+bundle exec jekyll serve
+
+```
+
+
+http://localhost:3000
+
+
+# Step 3: Deploying your documentation
 
 Push your master.
 
