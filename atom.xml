@@ -1,0 +1,28 @@
+---
+layout: null
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Vertice - Dev Center</title>
+  <link href="https://devcenter.megam.io/atom.xml" rel="self"/>
+  <link href="https://devcenter.megam.io/"/>
+  <updated>{{ site.time | date_to_xmlschema }}</updated>
+  <id>https://devcenter.megam.io/</id>
+  <author>
+    <name>Vertice - Dev Center</name>
+    <email>humans@megam.io</email>
+  </author>
+  {% for post in site.posts limit:10 %}
+  <entry>
+    <title>{{ post.title }}</title>
+    <link href="https://devcenter.megam.io{{ post.url }}"/>
+    <updated>{{ post.date | date_to_xmlschema }}</updated>
+    <id>https://devcenter.megam.io{{ post.id }}</id>
+    <content type="html">{{ post.content | xml_escape }}</content>
+    <author>
+      <name>Vertice - Dev Center</name>
+      <uri>https://devcenter.megam.io</uri>
+    </author>
+  </entry>
+  {% endfor %}
+</feed>

@@ -1,0 +1,103 @@
+<!DOCTYPE HTML>
+<html lang="en" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8">
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Vertice - Dev Center</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    {% if page.title != "Archive (sidebar)" %}
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    {% endif %}
+    <!-- <link href='//fonts.googleapis.com/css?family=Poly:400' rel='stylesheet' type='text/css'> -->
+    <link href='//fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Roboto+Condensed:300,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" media="screen, projection" href="/res/screen.css" type="text/css">
+    <link rel="stylesheet" media="print" href="/res/print.css" type="text/css">
+    <link rel="alternate" type="application/atom+xml" title="Vertice - Dev Center" href="/atom.xml">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" href="/res/apple-touch-icon-57x57-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="/res/apple-touch-icon-{% if page.ios_app_name %}{{page.ios_app_name}}-{% endif %}72x72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="/res/apple-touch-icon-114x114-precomposed.png">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@rsms">
+    {% if page.ios_app_name %}
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    {% endif %}
+    <meta property="fb:admins" content="728642302">
+    <meta property="fb:app_id" content="38027689216">
+    {% if page.title %}
+    <meta property="og:title" content="{{ page.title }}">
+      {% if page.description %}
+      <meta name="description" content="{{ page.description }}">
+      <meta name="og:description" content="{{ page.description }}">
+      {% else if content %}
+      <meta name="description" content="{{ content | strip_html | truncatewords: 25 }}">
+      <meta name="og:description" content="{{ content | strip_html | truncatewords: 25 }}">
+      {% endif %}
+    {% else %}
+      <meta name="description" content="Vertice  - Dev Center, Ramblings by humans Megam.io">
+    {% endif %}
+    {% if page.og_image_url %}
+    <meta property="og:image" content="{{ page.og_image_url }}">
+    {% else %}
+    {% if page.photo_url %}
+    <meta property="og:image" content="{{ page.photo_url }}">
+    {% endif %}
+    {% endif %}
+    <meta property="og:url" content="https://rsms.me{{ page.url | remove_first:'index.html' }}">
+    <meta property="og:site_name" content="rsms.me">
+    <meta property="og:type" content="article">
+    <meta property="og:locale" content="en_GB" />
+    {% if page.date %}
+    <meta property="article:published_time" content="{{ page.date | date: "%Y-%m-%d" }}">
+    {% endif %}
+    <script>window.initFuncs = [];</script>
+  </head>
+  <body{% if page.wide_layout %} class="wide"{% endif %}>
+    <header>
+      <h1 class="logo" onclick="document.location.href='/';"><a href="/"><img src="/res/signature-2-2.png" width="160" height="50" alt="Signature"></a></h1>
+      <ul class="navigation">
+        <li><a href="//github.com/megamsys/" target="_blank" title="A selection of recent photography">Code</a></li>
+        <li><a href="//docs.megam.io/" target="_blank" title="A selection of recent photography">Docs</a></li>
+        <li><a href="/archive/"{% if page.url contains "/archive/" %}class="active"{% endif %} title="Archived articles">Archive</a></li>
+        <li><a href="//www.megam.io/" target="_blank" title="A selection of recent photography">Megam.io</a></li>
+      </ul>
+    </header>
+    <!--div class="wrapper content"-->
+      {{ content }}
+    <!--/div-->
+
+    {% if page.fb_comments or page.comments %}
+    <!--div class="content sub">
+      <h2 id="comments">Comments</h2>
+      <div class="fb-comments" data-href="//rsms.me{{ page.url }}" data-num-posts="{{ page.fb_comments }}" data-width="550" data-font="arial"></div>
+    </div-->
+    {% endif %}
+
+    {% if paginator.page %}
+    <div id="paginator" class="content">
+      {% if paginator.next_page %}
+      <a href="/page{{ paginator.next_page }}/">Older entries</a>
+      {% endif %}
+      {% if paginator.previous_page %}
+      <a href="/page{{ paginator.previous_page }}/">Newer entries</a>
+      {% endif %}
+    </div>
+    {% endif %}
+
+    {% unless page.no_footer %}
+    <footer>
+      <p>
+        <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US" class="cc"><img src="/res/cc-cc.png" class="cc">
+        <img src="/res/cc-by.png" class="cc"></a>
+        This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons License</a>
+      </p>
+    </footer>
+    {% endunless %}
+
+    {% include highlight.html %}
+    {% include analytics.html %}
+    <script>for (var k in window.initFuncs) { window.initFuncs[k](); } delete window.initFuncs;</script>
+  </body>
+</html>
