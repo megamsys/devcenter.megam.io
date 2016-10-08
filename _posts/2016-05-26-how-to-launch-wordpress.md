@@ -1,11 +1,11 @@
 ---
 title: How to launch WordPress in MegamAfrica
-slug: how-to-launch-wordpress
-date_published: 2016-05-26T14:11:07.844Z
-date_updated:   2016-05-27T08:10:50.163Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch WordPress in MegamAfrica
 ---
 
-#####Introduction
+##### Introduction
 
 WordPress is web software you can use to create a beautiful website, blog, or app. We like to say that WordPress is both free and priceless at the same time.
 
@@ -13,7 +13,7 @@ And WordPress is a free and open-source content management system (CMS) based on
 
 [![megamafrica](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
 
-#####Prerequisites
+##### Prerequisites
 
 You have to create a valid credential access for https://console.megamafrica.com.
 
@@ -24,8 +24,8 @@ You have to install openssh-server for ssh access.
 Check SSH working properly
 
 		ps aux | grep sshd
-        
-######Step - 1 Lauch WordPress just by One Click 
+
+###### Step - 1 Lauch WordPress just by One Click
 
 This initial section contains everything you need to get WordPress and running on your server.
 
@@ -41,7 +41,7 @@ Go to the Market Places to click the create a new `WordPress on Collaboration`.
 
 * Click the create button. it will create the WordPress Machine.
 
-######Step - 2 Access the WordPress Machine
+###### Step - 2 Access the WordPress Machine
 * Next, Go to the Services it will show your services that you are lauched click the domain name of your wordpress and then a new window is open.
 
 * Now you can see your machine's CPU, RAM ,Storage IP address and SSH URL on Usage section.
@@ -55,24 +55,24 @@ Go to the Market Places to click the create a new `WordPress on Collaboration`.
 	$ ssh -i path to/private_key_filename root@ipaddress
 
 
-######Step - 3 Credentials of WordPress
+###### Step - 3 Credentials of WordPress
 
-Get your server's IP from overview page 
+Get your server's IP from overview page
 
 * Go to your browser and type as follows
 
-	http://IP_ADDRESS/current 
-    
+	http://IP_ADDRESS/current
+
 * Now you can see your WordPress welcome page and press Let's go! on that page.
 
-* Enter the credentials of database for WordPress. the below are default credentials. 
+* Enter the credentials of database for WordPress. the below are default credentials.
 
 The name of the database you want to use with WordPress.
- 
+
  		Database Name :	wordpress
 
 Your database username and password.
-		
+
         Username :  root
 		Password :	<leave it blank>
 
@@ -84,9 +84,9 @@ If you want to run multiple WordPress installations in a single database, change
 
 		Table Prefix : wp_
 
-* press submit, if the given credentials are valid it gets into next page 
+* press submit, if the given credentials are valid it gets into next page
 
-* Press Run the install button shown in the page. 
+* Press Run the install button shown in the page.
 
 * In this page you can choose your WordPress Login username, Password and your Site name.
 
@@ -95,7 +95,7 @@ Login with your user and password it will get to wordpress design page successfu
 ![](/content/images/2016/05/wordpress.png)
 
 
-#####Conclusion
+##### Conclusion
 
 These are the very simple steps to launch WordPress in virtual machine. Installing wordpress is faster, so it takes only less time. This is a good head-start for launching a WordPress in [MegamAfrica](https://console.megamafrica.com).
 

@@ -1,17 +1,16 @@
 ---
 title: How to launch travis-web in MegamAfrica
-slug: how-to-launch-travis-web
-date_published: 2016-05-11T06:23:09.991Z
-date_updated:   2016-05-27T12:30:57.152Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch travis-web in MegamAfrica
 ---
-
-###Introduction
+### Introduction
 In software development, Travis-web is an open-source hosted, distributed continuous integration service used to build and test projects hosted at GitHub. Travis CI is configured by adding a file named .travis.yml, which is a YAML format text file, to the root directory of the GitHub repository.
 
 [![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://console.megamafrica.com)
 
 
-###Prerequisites
+### Prerequisites
 
 * You are running Ubuntu 14.04 or Linux workstation.
 
@@ -24,13 +23,13 @@ In software development, Travis-web is an open-source hosted, distributed contin
 * You have to install openssh-server for ssh access.
 
 		sudo apt-get install openssh-server
-    
-* Check SSH working properly 
+
+* Check SSH working properly
 
 		ps aux | grep sshd
 This initial section contains everything you need to get etherpad-lite running on your server.
 
-###Step-1 Fork travis-web
+### Step-1 Fork travis-web
 * Fork travis-web
 from [here](https://github.com/verticeapps/node_travisweb.git)
 
@@ -38,7 +37,7 @@ from [here](https://github.com/verticeapps/node_travisweb.git)
 
 * The travisweb is forked into your git repository
 
-###Step-2 create SSHKey and launch the app
+### Step-2 create SSHKey and launch the app
 * Then go to your MegamAfrica Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
@@ -55,8 +54,8 @@ from [here](https://github.com/verticeapps/node_travisweb.git)
 
 * Now that you have launched your app, you might want to launch a service (database) and bind it
 
-###Start script
-MegamAfrica will look for a start script named `start as follows. 
+### Start script
+MegamAfrica will look for a start script named `start as follows.
 
 	#!/bin/sh
  	sudo invoke-rc.d shellinabox stop
@@ -67,8 +66,8 @@ MegamAfrica will look for a start script named `start as follows.
  	npm install
  	ember serve
 
-       
-###**Step-3 Open Your Web browser**
+
+### **Step-3 Open Your Web browser**
 You can access your web page using http://IP_ADDRESS/4200
 
 ![](/content/images/2016/05/Screenshot-from-2016-05-27-15-16-35.png)
@@ -80,13 +79,9 @@ You can access your web page using http://IP_ADDRESS/4200
 
 
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to launch Nodejs using travis-web. Finally using github repository and launched the travis-web to run successfully.
 
-###To deploy your App 
+### To deploy your App 
 [![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://console.megamafrica.com)
-
-
-
-

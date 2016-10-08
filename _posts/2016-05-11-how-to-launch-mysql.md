@@ -1,11 +1,11 @@
 ---
 title: How to launch MySQL in MegamAfrica
-slug: how-to-launch-mysql
-date_published: 2016-05-11T04:51:29.770Z
-date_updated:   2016-05-27T11:22:40.824Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch MySQL in MegamAfrica
 ---
 
-###Introduction
+### Introduction
 
 MySQL is the world's most popular open source database. It runs on virtually all platforms, including Linux, UNIX, and Windows. Although it can be used in a wide range of applications, MySQL is most often associated with web-based applications and online publishing and is an important component of an open source enterprise stack called LAMP. It works very quickly and works well even with large data sets. MySQL uses a standard form of the well-known SQL data language.
 
@@ -14,7 +14,7 @@ This tutorial will guide you in launching MySQL.
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
-##Prerequisites
+## Prerequisites
 
 * You are running Ubuntu 14.04 or Linux workstation.
 
@@ -32,11 +32,11 @@ To check the ssh is properly installed in our system
 
 	$ ps aux | grep sshd
 
-###Step - 1 Creating MySQL Virtual Machine
+### Step - 1 Creating MySQL Virtual Machine
 
 This initial section contains everything you need to get MySQL and running on your server.
 
-* First, ensure the user can login to https://console.megamafrica.com. 
+* First, ensure the user can login to https://console.megamafrica.com.
 
 * Go to the Market Places.
 
@@ -48,7 +48,7 @@ This initial section contains everything you need to get MySQL and running on yo
 
 * Click the create button. it will create the virtual machine.
 
-###Step - 2 Access the MySQL in the Virtual Machine
+### Step - 2 Access the MySQL in the Virtual Machine
 
 Next, Go to the Dashboard and click the domain name a new window will open.
 
@@ -70,13 +70,11 @@ Next, Go to the Dashboard and click the domain name a new window will open.
 
 successfully launched the vm and login into MySQL.
 
-###Conclusion
+### Conclusion
 
 This is a good head-start for launching MySQL in MegamAfrica.
 
-###Deploy MySQL now
+### Deploy MySQL now
 
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
-
-

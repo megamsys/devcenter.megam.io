@@ -14,6 +14,8 @@ There are 3 steps
 - Step 2: Local test
 - Step 3: Push the changes
 
+![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/devcenter_megam_io.png)
+
 
 # Step 1: Lets fork.
 

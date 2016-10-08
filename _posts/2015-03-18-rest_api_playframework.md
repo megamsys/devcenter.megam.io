@@ -1,18 +1,17 @@
 ---
 title: Beautiful API using Scala based Playframework
-slug: rest_api_playframework
-date_published: 2015-03-18T10:19:27.209Z
-date_updated:   2015-03-19T04:24:45.357Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Beautiful API using Scala based Playframework
 ---
-
 We are going to build a beautiful REST API based on a modern [playframework](www.playframework.com) using [Scala](scala-lang.org) in a functional way.
 
 Let us start by understanding the concept of REST in a simpler sense.
 
-##RESTful API
+## RESTful API
 [REST](http://en.wikipedia.org/wiki/Representational_state_transfer) came from Roy Fieldings desertation in claiming to make web stateles again based on designing your system using nouns. So some of the examples are
 
-* accounts 
+* accounts
 * users
 * profiles
 * logs
@@ -25,15 +24,15 @@ How do you arrive on a design for the RESTful approach for your system is beyond
 
 The RESTful API's transport mechanism is pure [HTTP](https://www.ietf.org/rfc/rfc2616.txt)
 
-We will use [HMAC](http://en.wikipedia.org/wiki/Hash-based_message_authentication_code) to encrypt the payload sent across from a client. 
+We will use [HMAC](http://en.wikipedia.org/wiki/Hash-based_message_authentication_code) to encrypt the payload sent across from a client.
 
 The client code we will use in our usecase will be Ruby or Scala.
 
 First let us start with the core *HTTP payload* we would like to send across.
 
-The constructs of the payload which would help us multi tenantized system are, 
+The constructs of the payload which would help us multi tenantized system are,
 
-###Parts of the payload. 
+### Parts of the payload.
 
 - HEADER
 
@@ -45,7 +44,7 @@ X_Megam_DATE   - The date on which the data was sent
 X_Megam_HMAC   - The MD5 hmac calculated by the client in the format of **email:hmac value**
 Path           - URL path from the HTTP Request
 
-The HMAC value is calculated as follows 
+The HMAC value is calculated as follows
 X_Megam_DATE +  Path + MD5(body JSON)
 
 The HMAC string makes sure the payload sent from the client is well formed and is valid.
@@ -53,24 +52,24 @@ The HMAC string makes sure the payload sent from the client is well formed and i
 * BODY
 A JSON as sent by  the client. The body JSON may or may not be present. In case where a HTTP GET is done there body will be empty
 
-####HEADER
+#### HEADER
 
-    
+
 Sample scala code in building Header.
- 
+
     val defaultHeaderOpt = Map(Content_Type -> application_json,
     X_Megam_EMAIL -> "megam@mypaas.io", X_Megam_APIKEY -> "IamAtlas{74}NobodyCanSeeME#07",
     //X_Megam_EMAIL -> "fake@mypaas.io", X_Megam_APIKEY -> "fakemypaas#megam",
    // X_Megam_EMAIL -> "steve@olympics.com", X_Megam_APIKEY -> "mAFfm45XnvYJMqPTpP5Dow==",
     X_Megam_DATE -> currentDate, Accept -> application_vnd_megam_json)
 
-####BODY
+#### BODY
 
 Sample scala code.
 
     val contentToEncode = "{\"collapsedmail\":\"megam@mypaas.io\", \"inval_api_key\":\"IamAtlas{74}NobodyCanSeeME#075488\", \"authority\":\"user\" }"
 
-####HMAC
+#### HMAC
 
 We design a cryptographic hash based on the popular MD5 or SHA1 which can be encrypted during the send and decrypted upon receipt.
 
@@ -78,23 +77,23 @@ Now that we have set the playground for the various definitions let us put to us
 
 Our RESTful API Serveer will be named as megam_gateway and is designed to be stateless.
 
-###Approach
+### Approach
 We will use a novel approach to authenticate and authorize any request that come to our megam_gateway. The approach should be intelligent enought to authenticate any number of layers, return back on malformed header (invalid email could be one of them), mismatch API key and exception condition in megam_gateway.
 
-###Controller
+### Controller
 A regular controller which the requests coming in to the megam_gateway.
 
-###play-auth
-An authentication library that helps to quickly build authentication function in a play project. 
+### play-auth
+An authentication library that helps to quickly build authentication function in a play project.
 
 
-###APIAuthElement : Extension of StackActionController 
-A trait, that extends a StackActionController and 
+### APIAuthElement : Extension of StackActionController
+A trait, that extends a StackActionController and
 can be invoked by extending this trait in relevant controller.
 
     object Accounts extends Controller with APIAuthElement {
 
-Also you have coarse control to decide if you wish to authenticate all HTTP verbs or not. 
+Also you have coarse control to decide if you wish to authenticate all HTTP verbs or not.
 
 For instance when an account is created initially there is no point authenticating, you know why.
 
@@ -104,31 +103,31 @@ If an authentication is needed, then we wrap the particular action in controller
 
 You can read the guide availabe in [play-auth](https://github.com/t2v/play2-auth) for more information.
 
-###SecurityActions
-A helper function that handles authentication after everything is verified. 
+### SecurityActions
+A helper function that handles authentication after everything is verified.
 
 Lets put everything together and create our first api **accounts**
 
-##Step 1: FunnelRequest
+## Step 1: FunnelRequest
 
 The first step we do is to find those actions in the controller that require authentication. We wrap them  with **StackAction**.
 
-    trait APIAuthElement extends StackableController 
+    trait APIAuthElement extends StackableController
 
 The trait has an implicit which helps to converts the input HTTPRequest inputs to a **FunnelRequest** The **FunnelRequest** just maps the HTTPRequestInput and maps the header, body, hmac to an internal object.
 
-##Step 2: Validate FunnelRequest
+## Step 2: Validate FunnelRequest
 
-After that the SecurityActions.Authenticates the FunnelRequest Object and returns to serve the request if every is valid. If the Header is malformed its immediately sent back. 
+After that the SecurityActions.Authenticates the FunnelRequest Object and returns to serve the request if every is valid. If the Header is malformed its immediately sent back.
 
     object SecurityActions {
 
- 
+
   def Authenticated[A](req: FunnelRequestBuilder[A]): ValidationNel[Throwable, Option[String]] = {
     Logger.debug(("%-20s -->[%s]").format("SecurityActions", "Authenticated:Entry"))
     req.funneled match {
 
-###Step3: Serve the request.
+### Step3: Serve the request.
 
 Now when things are validated, the controller handles the request
 
@@ -140,12 +139,12 @@ Now when things are validated, the controller handles the request
 
 We saw bits and pieces on how everything comes together. Let us look at how to implement an account..
 
-##Account 
+## Account
 
 /accounts
-Let us implement the simple API which has the following requirements   
-  
-  
+Let us implement the simple API which has the following requirements
+
+
 <table>
     <tr>
         <td>HTTP Verb</td>
@@ -162,13 +161,13 @@ Let us implement the simple API which has the following requirements
         <td>accounts</td>
         <td>Posts a new account</td>
     </tr>
-    
-   
+
+
 </table>
 
 Great. For both of the functions we need a controller.
 
-#AccountsController
+# AccountsController
 
     import controllers.funnel.FunnelErrors._
     import controllers.funnel.FunnelResponse
@@ -190,7 +189,7 @@ Great. For both of the functions we need a controller.
      */
 
     /*
-    * This controller performs onboarding a customer and     registers an email/api_key 
+    * This controller performs onboarding a customer and     registers an email/api_key
     * into riak.
     * Output: FunnelResponse as JSON with the msg.  
     */
@@ -213,7 +212,7 @@ Let us hack an action method, that pulls the email and api_key and stores in a s
     val input = (request.body).toString()
     play.api.Logger.debug(("%-20s -->[%s]").format("input", input))
     models.Accounts.create(input) match {
-      case Success(succ) =>    
+      case Success(succ) =>
         PlatformAppPrimer.clone_predefcloud(succ.get.email).flatMap { x =>
           Status(CREATED)(
             FunnelResponse(CREATED, """Onboard successful. email '%s' and api_key '%s' is registered.""".
@@ -224,7 +223,7 @@ Let us hack an action method, that pulls the email and api_key and stores in a s
             val rncpc: FunnelResponse = new HttpReturningError(errcpc)
             Status(rncpc.code)(rncpc.toJson(true))
         }
-              
+
         PlatformAppPrimer.clone_organizations(succ.get.email).flatMap { x =>
           Status(CREATED)(
             FunnelResponse(CREATED, """Onboard successful. email '%s' and api_key '%s' is registered.""".
@@ -236,8 +235,8 @@ Let us hack an action method, that pulls the email and api_key and stores in a s
             Status(rncpc.code)(rncpc.toJson(true))
         }
 
-       
-  
+
+
         case Failure(err) => {
         val rn: FunnelResponse = new HttpReturningError(err)
         Status(rn.code)(rn.toJson(true))
@@ -253,13 +252,13 @@ A good api, communicates to an user the correct success JSON or an Error
 After all is well done, we send back a **FunnelResponse**. Stay tuned we will cover it in the next part
 
 
-###GET
+### GET
 
 /accounts/:id
 
-Let us hack an action method, in this case you can see that we are using **StackAction**. 
+Let us hack an action method, in this case you can see that we are using **StackAction**.
 
-You can see that we don't tell what needs to be done to authenticate, it all happens magically with the set framework. 
+You can see that we don't tell what needs to be done to authenticate, it all happens magically with the set framework.
 
 
     def show(id: String) = StackAction(parse.tolerantText) { implicit request =>
@@ -277,12 +276,9 @@ You can see that we don't tell what needs to be done to authenticate, it all hap
     }
 
   }
-  
-Ok. this is the first part of the series, we are done with the authentication. 
+
+Ok. this is the first part of the series, we are done with the authentication.
 
 In the subsequent parts we will cover JSON Convertors, FunnelResponse, Cache using StateMonad, IO Monad, Validation of Scalaz.
 
 Here is the [full source code](https://github.com/megamsys/megam_gateway.git) of the project.
-
-            
-

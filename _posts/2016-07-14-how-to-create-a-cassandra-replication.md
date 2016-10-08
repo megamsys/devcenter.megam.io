@@ -2,7 +2,7 @@
 title: "Cassandra Replication - HA"
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: "Cassandra replication with HA setup for fault tolerance"
+description: "Cassandra Replication - HA"
 ---
 
 
@@ -109,10 +109,10 @@ To follow this tutorial :
 
 Repeat the process in as many racks/datacenters.
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to setup cassandra replications in several nodes.
 
-###To Deploy your app
+### To Deploy your app
 
 [![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)

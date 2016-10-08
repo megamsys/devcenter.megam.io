@@ -1,11 +1,10 @@
 ---
 title: How to launch CouchDB in megamafrica.com
-slug: how-to-launch
-date_published: 2016-05-27T09:48:10.730Z
-date_updated:   2016-05-27T09:54:02.182Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch CouchDB in megamafrica.com
 ---
-
-###Introduction
+### Introduction
 
 Apache CouchDB, commonly referred to as CouchDB, is open source database software that focuses on ease of use and having an architecture that "completely embraces the Web". It has a document-oriented NoSQL database architecture and is implemented in the concurrency-oriented language Erlang; it uses JSON to store data, JavaScript as its query language using MapReduce, and HTTP for an API.
 
@@ -13,7 +12,7 @@ This tutorial will set up launching CouchDB.
 
 [![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
 
-###Prerequisites
+### Prerequisites
 
 To follow this tutorial :
 
@@ -27,7 +26,7 @@ To check the ssh is properly installed in our system
 
 	$ ps aux | grep sshd
 
-###Step - 1 Creating CouchDB 
+### Step - 1 Creating CouchDB
 
 This initial section contains everything you need to get CouchDB and running on your server.
 
@@ -43,7 +42,7 @@ This initial section contains everything you need to get CouchDB and running on 
 
 * Click the create button. it will create the virtual machine.
 
-###Step - 2 Accessing CouchDB
+### Step - 2 Accessing CouchDB
 
 Next, Go to the Dashboard and click the domain name a new window is open.
 
@@ -58,22 +57,20 @@ Next, Go to the Dashboard and click the domain name a new window is open.
 * You need to access the virtual machine in terminal, you can download the SSH Keys from SSH Keys tab or Overview page. Use this keys to login the terminal in following command,
 
  		$ ssh -i path to/<private_key filename> root@<ipaddress>
- 
+
 successfully launched the vm.
 
-###Step-3 Open Your Web browser
+### Step-3 Open Your Web browser
 
 You can access your web page using http://localhost:5984/
 
 ![](/content/images/2016/05/s2-2.jpg)
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to launch CouchDB in virtual machine. Creating vm is faster, so it takes only less time. This is a good head-start for launching CouchDB in MegamAfrica.
 
-###To Deploy your app
+### To Deploy your app
 
 
 [![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
-
-

@@ -1,31 +1,31 @@
 ---
 title: How to build a Gem!
-slug: how-to-build-a-gem
-date_published: 2015-12-08T05:28:38.330Z
-date_updated:   2015-12-08T05:33:31.589Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to build a Gem!
 ---
 
-##WHAT IS A RUBY GEM?
-A gem is essentially a Ruby plugin. RubyGems is a package manager for the Ruby programming language that provides a standard format for distributing Ruby programs and libraries, a tool designed to easily manage the installation of gems, and a server for distributing them. 
+## WHAT IS A RUBY GEM?
+A gem is essentially a Ruby plugin. RubyGems is a package manager for the Ruby programming language that provides a standard format for distributing Ruby programs and libraries, a tool designed to easily manage the installation of gems, and a server for distributing them.
 
-###WHY USE GEM? 
+### WHY USE GEM?
 (Interesting question. Let's see why.)
 
-Before we get into the "how" of creating a gem, **let's first consider why you might want to do so.** 
+Before we get into the "how" of creating a gem, **let's first consider why you might want to do so.**
 
-One of the most obvious reasons relates to **code reuse**. 
+One of the most obvious reasons relates to **code reuse**.
 
-If you find yourself implementing the same feature over and over again across projects, there's a good chance that you've found the need for a gem. 
+If you find yourself implementing the same feature over and over again across projects, there's a good chance that you've found the need for a gem.
 
 Additionally, **releasing a gem as open-source provides others the opportunity to contribute** by adding features, addressing issues that you might have overlooked, and generally making your gem provide an all-around better experience for its users.
 
-###HOW DO YOU BUILD A GEM?
+### HOW DO YOU BUILD A GEM?
 
 To help us create the gem, we’ll use the popular  *bundler*
 
     bundler gem <gem_name>
-  
-Bundler is primarily designed to **help you manage a project’s dependencies**. 
+
+Bundler is primarily designed to **help you manage a project’s dependencies**.
 
 If you’ve not used it before, then don’t worry because we’ll be taking advantage of a lesser known feature anyway, which is its ability to generate a gem boilerplate. (
 
@@ -35,7 +35,7 @@ It also provides some other tools that will help us manage our gem’s packaging
 
     gem install bundler
 
-Once Bundler is installed, we can use it to create our gem. 
+Once Bundler is installed, we can use it to create our gem.
 
 To begin to create a gem using Bundler named **[megam_api](https://github.com/megamsys/megam_api.git)**, use the bundle gem command like this:
 
@@ -43,7 +43,7 @@ To begin to create a gem using Bundler named **[megam_api](https://github.com/me
 
 ![create gem megam_api](/content/images/2015/12/bundler_gem_megam.png)
 
-**We call our gem megam_api** because this gem is going to do a couple of things around [Megam cloud platfom](https://www.megam.io) such as magically launch an app in cloud or "suck in cloud!". 
+**We call our gem megam_api** because this gem is going to do a couple of things around [Megam cloud platfom](https://www.megam.io) such as magically launch an app in cloud or "suck in cloud!".
 
 **This command creates a scaffold directory for our new gem.**
 The **files generated** are:
@@ -63,7 +63,7 @@ The **files generated** are:
 
 **There's our base and our layout, now get developing!**
 
-###TESTING YOUR GEM:
+### TESTING YOUR GEM:
 
 We're going to use **minitest** to test our gem.
 
@@ -81,15 +81,15 @@ We're going to use **minitest** to test our gem.
 
      Bundler.require(:default, :development)`
 
--The benefit of putting this dependency specification inside of megam_api.gemspec rather than the Gemfile is that anybody who runs 
-   
-	  gem install megam_api --dev 
-   
- will get these development dependencies installed too. 
- 
+-The benefit of putting this dependency specification inside of megam_api.gemspec rather than the Gemfile is that anybody who runs
+
+	  gem install megam_api --dev
+
+ will get these development dependencies installed too.
+
 This command is used for when people wish to test a gem without having to fork it or clone it from GitHub.
 
--When we run `bundle install`, **minitest** will be installed for this library and any other library we use with bundler, but not for the system. This is an important distinction to make: any gem installed by Bundler will not muck about with gems installed by gem install. It is effectively a sandboxed environment. 
+-When we run `bundle install`, **minitest** will be installed for this library and any other library we use with bundler, but not for the system. This is an important distinction to make: any gem installed by Bundler will not muck about with gems installed by gem install. It is effectively a sandboxed environment.
 
 -By running `bundle install`, bundler will generate the extremely important **Gemfile.lock** file. This file is responsible for ensuring that every system this library is developed on has the exact same gems so it should always be checked into version control.Additionally in the bundle install output, we will see this line:
 
@@ -98,11 +98,11 @@ This command is used for when people wish to test a gem without having to fork i
 
 Bundler detects our gem, loads the gemspec and bundles our gem just like every other gem.
 
-We can **write our first test with this framework** now in place. 
+We can **write our first test with this framework** now in place.
 
-For testing, create a new test file for every api (accounts to startwith) we want to test at the root of the test directory. 
+For testing, create a new test file for every api (accounts to startwith) we want to test at the root of the test directory.
 
-When we **run `ruby test_accounts.rb`** 
+When we **run `ruby test_accounts.rb`**
 
 ```
 require File.expand_path("#{File.dirname(__FILE__)}/test_helper")
@@ -153,9 +153,9 @@ When we run our specs with ruby test_accounts.rb this test will pass:
 Great success! If we're using Git (or any other source control system), this is a great checkpoint to commit our code. Always remember to commit often!
 It's all well and dandy that we can write our own code.
 
-###PUBLISHING TO RUBYGEMS.ORG
+### PUBLISHING TO RUBYGEMS.ORG
 
-The simplest way to distribute a gem for public consumption is to use RubyGems.org. 
+The simplest way to distribute a gem for public consumption is to use RubyGems.org.
 
 Gems that are published to RubyGems.org can be installed via the gem install command or through the use of tools such as Isolate or Bundler.
 
@@ -200,10 +200,6 @@ gem push megam_api-0.99.gem
 
 ```
 
-###Voila
+### Voila
 
 You are done. Go ahead and hack your own gem.
-
-
-
-

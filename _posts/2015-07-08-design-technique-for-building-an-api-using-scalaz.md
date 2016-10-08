@@ -1,30 +1,30 @@
 ---
 title: Design technique for building an API using scalaz
-slug: design-technique-for-building-an-api-using-scalaz
-date_published: 2015-07-08T13:33:21.905Z
-date_updated:   2015-07-10T03:45:39.259Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Design technique for building an API using scalaz
 ---
 
 In [Part1](http://devcenter.megam.io/2015/03/18/rest_api_playframework/) we looked at how does the general RESTful API design for the input request look like.
 
-We will use functional programming design technique - scalaz library and apply it to the design we have so far. 
+We will use functional programming design technique - scalaz library and apply it to the design we have so far.
 
-###Scalaz
+### Scalaz
 
 [scalaz](https://github.com/scalaz/scalaz) is an extension of the core library for functional programming.
 
 
-###Why functional ? 
+### Why functional ?
 
 We can defer the computation until we need to actually do it.
 
 Break programs in to partitioned computations
 
-Just play with plain old data structures instead of fancy polymorphism types  like *AbstractBufferedToddlerReadyPlaySchool*. 
+Just play with plain old data structures instead of fancy polymorphism types  like *AbstractBufferedToddlerReadyPlaySchool*.
 
 We will not cover scalaz here, however you can refer a tutorial to [learn scalaz](http://eed3si9n.com/learning-scalaz/).
 
-Some of the libraries that we will use are 
+Some of the libraries that we will use are
 
 * scalaz.Validation
 * scalaz.effect.IO
@@ -32,7 +32,7 @@ Some of the libraries that we will use are
 * scalaz.NonEmptyList._
 
 
-More precisely the following will be imported. 
+More precisely the following will be imported.
 
     import scalaz._
     import scalaz.Validation._
@@ -42,13 +42,13 @@ More precisely the following will be imported.
     import scalaz.Validation
     import scalaz.NonEmptyList._
     import scalaz.Validation.FlatMap._
-   
+
 The first concept we will study is about, *map*. This isn't a theory on monads, but talks about how we used it. so bear with me.
 
-##map
+## map
     //A functor with one fuction.
-    
-    def map[B](f: A => B) : M[B] 
+
+    def map[B](f: A => B) : M[B]
 
 For example you can convert a List of Ints to String. Why would you want to do that ? Lets just say we feel cool :).
 
@@ -62,68 +62,68 @@ Lets change a list of Ints to Option[Int]
 
 The next one we will use a lot is, *flatMap*.
 
-##flatMap
+## flatMap
 
     def flatMap[B](f: A => M[B]) : M[B]
 
 Lets change a list of Ints to Option[Int]
-	    
+
     val fruits = Seq("apple", "banana", "orange")
 
     val ufruits = fruits.map(_.toUpperCase)
-    
+
     //lets first map the fruits to make them uppper case
     :Seq[java.lang.String] = List(APPLE, BANANA, ORANGE)
 
     ufruits.flatMap(_.toUpperCase)
-    
-    //lets do a flatMap on the uppercased list 
+
+    //lets do a flatMap on the uppercased list
     :Seq[Char] = List(A, P, P, L, E, B, A, N, A, N, A, O, R, A, N, G, E)
-    
+
 ## Validation
 
-Many a times you will find *try catch* to be cumbersome in trapping errors. It becomes ugly where you start throwing down *exceptions* just to propogate and handle it. 
+Many a times you will find *try catch* to be cumbersome in trapping errors. It becomes ugly where you start throwing down *exceptions* just to propogate and handle it.
 
 Some times you need a *value* of the exception to proceed further or just halt there.
 
 A better way would be to handle *exceptions* as a value. Here you can see that an *CannotAuthenticateError* is returned as below.  
 
     Validation.failure[Throwable, Option[String]](CannotAuthenticateError("""Invalid content in header. API server couldn't parse it""", "Request can't be funneled."))
-    
+
     Validation.success[Throwable, Option[String](Some("Hurray I am done"))
 
-There are two type parameters in the above **Throwable** and **Option[String]** 
+There are two type parameters in the above **Throwable** and **Option[String]**
 
-We will use the term 
+We will use the term
 
 **Left**  to indicate the *failure* (Throwable) and
 
 **Right** to indicate the *success* (Option[String])
- 
-During a failure, the *Left* is provided with the value of the failure. 
+
+During a failure, the *Left* is provided with the value of the failure.
 
 During a success, the *Right* is provided with the success value.
 
-###ValidatioNel
+### ValidatioNel
 
 ValidationNel is a convinient method to wrap a NonEmptyList to the list of results. It can be useful where you want to concatenate the results of chained computation.
 
-For instance - hit the guys head with a nail 10 times and tell the results of it what happened each time. 
+For instance - hit the guys head with a nail 10 times and tell the results of it what happened each time.
 
-Did the guy duck or get it ? 
+Did the guy duck or get it ?
 
     ValidationNel[Throwable, Option[Hit]]
-    
+
 There are convenient methods to change *Validation* to *ValidationNel*.
 
-####Where can you use ?
+#### Where can you use ?
 
 When you call your model to create something, you want to return all the results to the callee.
 
-In the below code, we create an account and return the Left or Right to the callee. 
+In the below code, we create an account and return the Left or Right to the callee.
 
-###Model results
-The first step is that we send  a json string to the model to store. 
+### Model results
+The first step is that we send  a json string to the model to store.
 
 But first we need to validate it to a known schema *AccountInput* and see if it satisfies the same. If not we return an error **MalformedBodyError**
 
@@ -141,7 +141,7 @@ So if we wanted to proceed with upon failure of the schema validation we need to
     } leftMap { t: Throwable => new MalformedBodyError(input, t.getMessage)
     }).toValidationNel.flatMap
 
-Ignore the *toValidationNel* for now. We will get to it in a minute. 
+Ignore the *toValidationNel* for now. We will get to it in a minute.
 
 So you saw how easy its to trap failure/success in a simple scenario.
 
@@ -156,24 +156,24 @@ Sweet.
     } yield {
            //yield a success result
     }
-    
+
 So you just understood how to chain computations to arrive at a result, as opposed to the imperative style of a humongous loads of classes.
 
-We are going to proceed further and explore calling our model a bunch of times and keep storing success or failure. 
+We are going to proceed further and explore calling our model a bunch of times and keep storing success or failure.
 
 **toValidationNel**  is a helper method that lets you convert a **Validation** to **ValidationNel**
 
 **ValidationNel** comes handy.
 
-###ValidationNel put to use 
+### ValidationNel put to use
 
-Let us take a scenario where in our case when an user clicks the button **Marketplaces** we want to talk to the [gateway - REST API server](https://github.com/megamsys/megam_gateway.git) 
+Let us take a scenario where in our case when an user clicks the button **Marketplaces** we want to talk to the [gateway - REST API server](https://github.com/megamsys/megam_gateway.git)
 ![](/content/images/2015/06/megam_marketplaces.png)
 
-to display the Marketplaces screen 
+to display the Marketplaces screen
 ![](/content/images/2015/06/megam_marketplaces1.png)
 
-Yeah. Here is the code. 
+Yeah. Here is the code.
 
 
     def findByName(marketPlacesNameList: Option[Stream[String]]): ValidationNel[Throwable, MarketPlaceResults] = {
@@ -205,7 +205,7 @@ Yeah. Here is the code.
   }
 
 
-Lets examine the code. What we are saying here is 
+Lets examine the code. What we are saying here is
 
 *I hand you a list of Option[marketplace names], call the db and get me a ValidationNel[Failure/Success result] for each of the list item*
 
@@ -221,7 +221,7 @@ Lets examine the code. What we are saying here is
 
 Super cool. eh!...
 
-    
+
 ###Usage of flatMap
 
 When you receive the result as `Validation`, the subsequent  computation needs to handle  (Left) or (Right).
@@ -242,7 +242,7 @@ If the results are successful then the **flatMap** will provide the **AccountInp
 
 ###either[T, S]  \/
 
-Wait isn't either \/ disjunction appear like Validation. 
+Wait isn't either \/ disjunction appear like Validation.
 
 **Note** either \/  is isomorphic to Validation.
 
@@ -252,14 +252,14 @@ Isomorphism is a very general concept that derives from the Greek iso, meaning "
 
 Lets take this example and illustrate how either[T,S] differs from Validation.
 
-For instance - hit the guys head with a nail 10 times and tell the singular result of failure or success by aggregating everything. 
+For instance - hit the guys head with a nail 10 times and tell the singular result of failure or success by aggregating everything.
 
 - 1st hit [Sucess]
 - 2nd hit [Failure]
 - 3rd hit [Success]
 
 Did the guy duck or get it considering even on hit is a failure ? Yes the answer to the above is *[Failure]*
-    
+
 Lets study by taking an example.
 
     (for {
@@ -282,25 +282,22 @@ Lets study by taking an example.
       }
     } yield found).run.map(_.validation).unsafePerformIO()
   }
-  
-  
+
+
   In the above there are two computations **resp, found** that are wrapped in  **eitherT[IO, NonEmptyList[Throwable], Option[T]]**
-  
+
   The first computation returns the results of Account.findByEmail and wraps it in **pure[IO]**
-  
+
   The second computation takes the success of the find and see if account is valid and can be authenticated.
-  
+
   At the end of the computation you will notice that we yield  the **found** where we convert it to a **Validation** and tell scala to run the unsafe mode now.
-  
+
 I suppose we have given you an overall perspective of just 3 things in the **scalaz** world.
 
-- map, flatMap 
+- map, flatMap
 - Validation, ValidationNel
 - eitherT
 
 We had applied the same in how this was used in our awesome `api server` [https://github.com/megamsys](https://github.com/megamsys).
 
 #### If you guys want to learn more then `press a few likes here` [functional conf](http://confengine.com/functional-conf-2015/proposal/1321/building-a-rest-api-with-scalaz)
- 
-  
-  

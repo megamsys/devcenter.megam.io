@@ -1,19 +1,19 @@
 ---
 title: How to launch PHP - OpsWorks   in MegamAfrica
-slug: how-to-launch-opsworks-php-simple-demo-app
-date_published: 2016-05-11T04:59:07.423Z
-date_updated:   2016-05-27T12:25:54.838Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch PHP - OpsWorks   in MegamAfrica
 ---
 
-###Introduction
-AWS OpsWorks PHP is a simple demo app that can help you get started using your favourite PHP language. 
+### Introduction
+AWS OpsWorks PHP is a simple demo app that can help you get started using your favourite PHP language.
 
 This tutorial will guide you in launching a php web application (OpsWorks) in MegamAfrica.
 
 <a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a> 
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
-###Prerequisites
+### Prerequisites
 * You are running Ubuntu 14.04 or Linux workstation.
 
 * Git installed on your workstation, which you can do by following the [How To Install Git with Apt.](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04)
@@ -25,14 +25,14 @@ This tutorial will guide you in launching a php web application (OpsWorks) in Me
 * You have to install openssh-server for ssh access.
 
 		sudo apt-get install openssh-server
-    
-* Check SSH working properly 
+
+* Check SSH working properly
 
 		ps aux | grep sshd
 
 This initial section contains everything you need to get OpsWorks PHP Simple Demo App and running on your server.
 
-###Step-1 Fork OpsWorks PHP Simple Demo App
+### Step-1 Fork OpsWorks PHP Simple Demo App
 * Fork Open OpsWorks PHP Simple Demo App
 from https://github.com/verticeapps/php_simpleapp.git
 
@@ -40,12 +40,12 @@ from https://github.com/verticeapps/php_simpleapp.git
 
 * The OpsWorks PHP Simple Demo App repository is forked into your git repository.
 
-###Step-2 Launch the app
+### Step-2 Launch the app
 1. Go to MegamAfrica Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
-4. Click PHP Icon.A window will pop up for your repository selection. 
+4. Click PHP Icon.A window will pop up for your repository selection.
 
 3. Pick a repository by choosing your git repository.
 
@@ -59,15 +59,15 @@ from https://github.com/verticeapps/php_simpleapp.git
 
 * Now that you have launched your app, you might want to launch a service (database) and bind it
 
-###**Buildpack for php**
+### **Buildpack for php**
 
-We use a PHP build pack using our super cool chef-repo. 
+We use a PHP build pack using our super cool chef-repo.
 
-The buildpack for PHP 
-  
+The buildpack for PHP
+
 	#!/bin/bash
 	#Php builder
-	#megam_php 
+	#megam_php
 	local_repo=/var/www/html/currentremote_repo=https://github.com/megamsys/opsworks-demo-php-simple-app.git
 	megam_home=/var/lib/megam/gulp
 	filename=$(basename "$remote_repo")
@@ -84,21 +84,19 @@ The buildpack for PHP
     ./$project/star
     fi
     service apache2 restart
-    
 
-       
-###**Step-3 Open Your Web browser**
+
+
+### **Step-3 Open Your Web browser**
 You can access your web page using http://IP_ADDRESS/current
 
 
 {<1>}![](/content/images/2016/05/ops.png)
 
-###Conclusion
+### Conclusion
 
-These are the very simple steps to launch a php web app (OpsWorks PHP Simple Demo App) using github repository. 
+These are the very simple steps to launch a php web app (OpsWorks PHP Simple Demo App) using github repository.
 
 ###Deploy PHP app now
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
-
-

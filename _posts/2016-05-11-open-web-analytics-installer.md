@@ -1,11 +1,11 @@
 ---
 title: How to launch PHP - Open Web Analytics  in MegamAfrica
-slug: open-web-analytics-installer
-date_published: 2016-05-11T05:00:16.046Z
-date_updated:   2016-05-27T13:23:18.016Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch PHP - Open Web Analytics  in MegamAfrica
 ---
 
-###**Introduction**
+### **Introduction**
 
 Open Web Analytics (OWA) is an open source web analytics framework written in PHP. OWA was born out of the need for an open source framework that could be used to easily add web analytics features to web sites and applications. The OWA framework also comes with built-in support for popular web applications such as WordPress and MediaWiki. As a generic web analytics framework, OWA can be extended to track and analyze any web application.
 
@@ -14,7 +14,7 @@ This tutorial will guide you in launching a php web application (Open Web Analyt
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
-###**Prerequisites**
+### **Prerequisites**
 
 * You are running Ubuntu 14.04 or Linux workstation.
 
@@ -28,14 +28,14 @@ This tutorial will guide you in launching a php web application (Open Web Analyt
 * You have to install openssh-server for ssh access in your worstation.
 
 		sudo apt-get install openssh-server
-    
-* Check SSH working properly 
+
+* Check SSH working properly
 
 		ps aux | grep sshd
 
 This initial section contains everything you need to get Open Web Analytics App and running on your server.
 
-###Step-1 Fork Open Web Analytics
+### Step-1 Fork Open Web Analytics
 * Fork Open Web Analytics
 from https://github.com/verticeapps/php_webanalytics.git
 
@@ -43,12 +43,12 @@ from https://github.com/verticeapps/php_webanalytics.git
 
 * The Open Web Analytics repository is forked into your git repository
 
-###Step-2 Launch the app
+### Step-2 Launch the app
 1. Go to MegamAfrica Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
-4. Click PHP Icon.A window will pop up for your git repository selection. 
+4. Click PHP Icon.A window will pop up for your git repository selection.
 
 3. Pick a repository by choosing your repository.
 
@@ -62,15 +62,15 @@ from https://github.com/verticeapps/php_webanalytics.git
 
 * Now that you have launched your app, you might want to launch a service (database) and bind it
 
-###**Buildpack for php**
+### **Buildpack for php**
 
-We use a default PHP build pack using our super cool chef-repo. 
+We use a default PHP build pack using our super cool chef-repo.
 
 The build pack for PHP
-  
+
 	#!/bin/bash
 	#Php builder
-	#megam_php 
+	#megam_php
 	local_repo=/var/www/html/currentremote_repo=https://github.com/megamsys/Open-Web-Analytics.git
 	megam_home=/var/lib/megam/gulp
 	filename=$(basename "$remote_repo")
@@ -87,22 +87,20 @@ The build pack for PHP
     ./$project/star
     fi
     service apache2 restart
-    
 
-    
-   
-###**Step-3 Open Your Web browser**
+
+
+
+### **Step-3 Open Your Web browser**
 You can access your web page using http://IP_ADDRESS/current
 
 
 {<1>}![](/content/images/2016/05/mmm.png)
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to launch a PHP web app (Open Web Analytics) using your github repository.
 
 ### Deploy PHP app now
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
-
-   

@@ -1,8 +1,8 @@
 ---
 title: Gradle for scala
-slug: gradle-for-scala
-date_published: 2015-12-08T14:52:33.715Z
-date_updated:   2016-04-16T14:12:45.536Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Gradle for scala
 ---
 
 ### Installing gradle
@@ -18,13 +18,13 @@ Here we will look at installing gradle and setting up a scala project and publis
 Dowload and untar the zip [gradle](http://gradle.org/gradle-download/)
 
 
-### Environment variable 
+### Environment variable
 
 Setup the PATH environment variable by appending *GRADLE_HOME/bin*
 
 There may be packages for your distro (ubuntu, or archlinux)
 
-#### In Archlinux 
+#### In Archlinux
 
 ```
 
@@ -38,7 +38,7 @@ yaourt gradle
 
 The build recipe for gradle resides here.
 
->*src/main/scala:* 
+>*src/main/scala:*
 
 Contains the scala source code.
 
@@ -120,7 +120,7 @@ Add the dependencies you want *sparkbuilder* to use. We will use the following a
 - scalaz
 - megam:libcommon
 
-For *tests* we will use 
+For *tests* we will use
 
 -  junit
 -  specs2
@@ -233,7 +233,7 @@ gradle test
 
 ### Publishing to bintray
 
-Register and get the credentials of bintray. 
+Register and get the credentials of bintray.
 
 Create ./bintray/credentials with the following value. Your password might be different.
 
@@ -249,7 +249,7 @@ Modify your build.gradle to load the properties file
 
 ```
 
-   
+
 apply plugin: 'com.jfrog.bintray'
 
 ext.bintray = new Properties()
@@ -294,7 +294,7 @@ gradle bintrayUpload
 
 ```
 
-Ok, verify the link [https://dl.bintray.com/megamsys/scala/io/megam/sparkbuilder_2.11](https://dl.bintray.com/megamsys/scala/io/megam/sparkbuilder_2.11), 
+Ok, verify the link [https://dl.bintray.com/megamsys/scala/io/megam/sparkbuilder_2.11](https://dl.bintray.com/megamsys/scala/io/megam/sparkbuilder_2.11),
 
 Cool the project is up there in bintray.
 

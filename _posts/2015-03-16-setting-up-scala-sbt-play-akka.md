@@ -1,15 +1,14 @@
 ---
 title: Setting up Scala, SBT, Play, Akka
-slug: setting-up-scala-sbt-play-akka
-date_published: 2015-03-16T06:51:17.639Z
-date_updated:   2015-08-16T13:48:58.571Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Setting up Scala, SBT, Play, Akka
 ---
-
-###Part 1 : Setting up Scala, SBT, Play, Akka 
+### Part 1 : Setting up Scala, SBT, Play, Akka
 
 This will be multi-part series in building a cloud API server for our PaaS with cloud instrumentation using a messaging layer.
 
-###1. Let us setup SBT 0.13.
+### 1. Let us setup SBT 0.13.
 
 #### Installing in debian
 
@@ -27,23 +26,23 @@ This will be multi-part series in building a cloud API server for our PaaS with 
 - Create a script named `sbt` in your ~/bin directory with the following contents.
 
     java -server -Xms1024M -Xmx3072M -Xss32M     -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=1024M -XX:+UseG1GC -XX:+AggressiveOpts -XX:SurvivorRatio=128 -XX:MaxTenuringThreshold=0 -jar `dirname $0`/sbt-launch.jar "$@"
-    
-- Adjust the -Xmx, -Xms -XX:MaxPermSize based on the RAM you have. 
 
-At Megam we all have atleast 8GB or > of RAM. 
+- Adjust the -Xmx, -Xms -XX:MaxPermSize based on the RAM you have.
 
-#### *optional Install sbt-eclipse 
+At Megam we all have atleast 8GB or > of RAM.
 
-Install the scala-ide eclipse plugin for Eclipse Mars. 
+#### *optional Install sbt-eclipse
 
-Help > Install New Software > 
+Install the scala-ide eclipse plugin for Eclipse Mars.
+
+Help > Install New Software >
 
 Add the correct link from herehttp://scala-ide.org/download/nightly.html
 
-You can install typesafe stack and download templates from here. http://typesafe.com/stack/download#template 
-http://typesafe.com/resources/typesafe-stack/downloading-installing.html 
+You can install typesafe stack and download templates from here. http://typesafe.com/stack/download#template
+http://typesafe.com/resources/typesafe-stack/downloading-installing.html
 
-- Create a new project in eclipse. 
+- Create a new project in eclipse.
 Scala – Worksheet allows you to play around with REPL inside eclipse editor. or use command line, to use REPL
 
 
@@ -52,12 +51,12 @@ Scala – Worksheet allows you to play around with REPL inside eclipse editor. o
 
 If you only plan to use scala, you are done here. You can tweak your Build.scala to use the scala version you want.
 
-###2. Eclipsify scala project
+### 2. Eclipsify scala project
 
 https://github.com/typesafehub/sbteclipse/wiki https://github.com/typesafehub/sbteclipse Create a file .sbt/plugins/plugins.sbt and add the following to include eclipse plugin support.
 
     addSbtPlugin("com.typesafe.sbteclipse" % "sbteclipse-plugin" % "2.3.0"
-    
+
 If you created a project from command line then run sbt > eclipse to eclipsify a project..
 
     ram@rammegam:~/code/megam/workspace/nilam$ sbt
@@ -70,9 +69,9 @@ If you created a project from command line then run sbt > eclipse to eclipsify a
     [info] Compiling 6 Scala sources and 1 Java source to /home/ram/code/megam/workspace/nilam/target/scala-2.9.1/classes...
     [info] Successfully created Eclipse project files for project(s):
     [info] nilam
-    
-   
-###3. If you with to use akka
+
+
+### 3. If you with to use akka
 
 A sample akka source code for the Typesafe Stack (http://typesafe.com/stack). http://typesafe.com/resources/tutorials/getting-started-with-akka-scala.html From your akka code type sbt run:
 
@@ -93,7 +92,7 @@ A sample akka source code for the Typesafe Stack (http://typesafe.com/stack). ht
 
 
 
-###4. Setting up Play framework
+### 4. Setting up Play framework
 
 Let us create a project titled megam_play which will use external dependencies like scaliak, newman, scalaz This project megam_play was created by cloning an existing typesafe_stack (play scala sample template). You are free to pick any other template from Github.com Adding library dependencies in your Build.scala file. The scaliak, amqp dependency has been moved to a common artifact named “megam_common”
 
@@ -134,18 +133,18 @@ Let us create a project titled megam_play which will use external dependencies l
     "jp.t2v" %% "play2-auth-test" % play2AuthVersion % "test",
     "com.stackmob" %% "newman" % "1.3.0" % "test")
 
-      val main = play.Project(appName, appVersion, appDependencies).settings(    
+      val main = play.Project(appName, appVersion, appDependencies).settings(
     sbt.Keys.resolvers += "Sonatype Snapshots" at "https://oss.sonatype.org/content/repositories/snapshots",
     sbt.Keys.resolvers += "Typesafe Snapshots" at "http://repo.typesafe.com/typesafe/snapshots/",
     sbt.Keys.resolvers += "Scala-Tools Maven2 Snapshots Repository" at "http://scala-tools.org/repo-snapshots",
-    sbt.Keys.resolvers += "Twitter Repo" at "http://maven.twttr.com", // finagle 
+    sbt.Keys.resolvers += "Twitter Repo" at "http://maven.twttr.com", // finagle
     sbt.Keys.resolvers += "spray repo" at "http://repo.spray.io", //spray client used in newman.
     sbt.Keys.resolvers += "spray nightly" at "http://nightlies.spray.io", //spray client nighly used in newman (0.23.0).
     sbt.Keys.resolvers += "Spy Repository" at "http://files.couchbase.com/maven2" // required to resolve `spymemcached`, the plugin's dependency.
     )
 
     }
-    
+
 We package debs, hence build.sbt contains the required statements
 
     import sbt
@@ -157,7 +156,7 @@ We package debs, hence build.sbt contains the required statements
     scalaVersion := "2.10.3"
 
     scalacOptions := Seq(
-      "-unchecked", 
+      "-unchecked",
       "-deprecation",
       "-feature",
       "-optimise",
@@ -174,7 +173,7 @@ We package debs, hence build.sbt contains the required statements
 
     maintainer in Debian:= "Rajthilak <rajthilak@megam.co.in>"
 
-    packageSummary := "Cloud API server - Megam." 
+    packageSummary := "Cloud API server - Megam."
 
     packageDescription in Debian:= " (REST based) Cloud API server for Megam platform.The API server protects the resources using HMAC based authorization, as provided to a customer during onboarding."
 
@@ -203,7 +202,7 @@ We package debs, hence build.sbt contains the required statements
 
     linuxPackageMappings in Debian <+= (baseDirectory) map { bd =>
       (packageMapping((bd / "conf/application-logger.xml") -> "/usr/local/share/megamplay/conf/application-logger.xml")
-    withConfig()) 
+    withConfig())
     }
 
     linuxPackageMappings in Debian <+= (baseDirectory) map { bd =>
@@ -248,14 +247,14 @@ We package debs, hence build.sbt contains the required statements
     credentials += Credentials(Path.userHome / "software" / "aws" / "keys" / "sbt_s3_keys")
 
     S3.progress in S3.upload := true
-    
-    
+
+
  1.Plugins.sb
 
     // Comment to get more information during initialization
     logLevel := Level.Warn
 
-    // The Typesafe repository 
+    // The Typesafe repository
     resolvers += "Typesafe repository" at     "http://repo.typesafe.com/typesafe/releases/"
 
     // Typesafe snapshots
@@ -264,8 +263,8 @@ We package debs, hence build.sbt contains the required statements
     // Use the Play sbt plugin for Play projects
 
     addSbtPlugin("play" % "sbt-plugin" % "2.2.0")
-    
-    
+
+
 project/build.properties
 
 `sbt.version=0.13.0`
@@ -284,7 +283,7 @@ Run the play project megam_play
     [megam_play] $ play
            _
       _ __ | | __ _ _  _
-     | '_ | |/ _' | || | 
+     | '_ | |/ _' | || |
      |  __/|_|___|__ /
      |_|          |__/
 
@@ -317,8 +316,8 @@ Now let us add a template to show the
     @main("Megam Cloud v1") {
     @welcome(message)
     }
-    
-    
+
+
 ####main.scala.html
 
 
@@ -370,7 +369,7 @@ Now let us add a template to show the
     </style>
       </head>
        <body>
-       <div>     
+       <div>
         <div>
             @leftmenu()
             @content
@@ -401,18 +400,18 @@ Now let us add a template to show the
     <div class="page-header">
       <h2>Stacktrace</h2>
     </div>
-    
+
      <div class="">
-     
-    
+
+
     <code class="brush: bash; toolbar:     false;">@({val u = new java.io.StringWriter; ex.printStackTrace(new java.io.PrintWriter(u)); u.toString})
         </code>
       </div>
      </div>
     </div>
     }
-    
-    
+
+
     object Global extends GlobalSettings {
 
      override def onStart(app: Application) {
@@ -433,14 +432,8 @@ Now let us add a template to show the
       views.html.errorPage(new Throwable(NOT_FOUND + ":" + request.path + " NOT_FOUND"))))
      }
     }
-    
+
 
 Thee view files are placed under views directory.
 
 Type https://localhost:9000
-
-
-
-
-
-

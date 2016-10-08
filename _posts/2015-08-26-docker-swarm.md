@@ -1,11 +1,11 @@
 ---
 title: Docker swarm
-slug: docker-swarm
-date_published: 2015-08-26T10:25:24.891Z
-date_updated:   2015-08-26T10:25:24.881Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Docker swarm
 ---
 
-This summer [@megamsys](https://www.megam.io) we started implementing micro services (containers) in baremetal for our customer and our public service in [beta](https://console.megam.io) 
+This summer [@megamsys](https://www.megam.io) we started implementing micro services (containers) in baremetal for our customer and our public service in [beta](https://console.megam.io)
 
 The market largely is about 4 kinds + emerging **unikernel** owing to some of the issues posed on security by the famous [docker](https://docker.com)  
 
@@ -65,7 +65,7 @@ The emerging one are the **Unikernel or library kernel** which run just one app 
         <td>Krane</td>
         <td><a href="https://github.com/krane-io/krane" target="_blank">Krane</a></td>
         <td>VM</td>
-    </tr>   
+    </tr>
     <tr>
         <td>Joyent Triton</td>
         <td><a href="https://www.joyent.com/developers/triton-faq#what" target="_blank">Triton</a></td>
@@ -110,24 +110,24 @@ The emerging one are the **Unikernel or library kernel** which run just one app 
         <td>Cloudify</td>
         <td><a href="https://getcloudify.org" target="_blank">Cloudify</a></td>
         <td>Don't know</td>
-    </tr>   
+    </tr>
     <tr>
         <td>Photon VMWare</td>
         <td><a href="https://vmware.github.io/photon/" target="_blank">Photon</a></td>
         <td>CoreOS like - propretitory</td>
-    </tr>   
+    </tr>
     <tr>
         <td>runC (new kid)</td>
         <td><a href="https://github.com/opencontainers/runc" target="_blank">Opencontainers</a></td>
         <td>Opencontainer - baremetal</td>
-    </tr>   
+    </tr>
 </table>
 
-> The funny thing in the above take is how everybody royally screws [Openstack](https://wiki.openstack.org/wiki/Docker) in getting into containers when it doesn't need to. 
+> The funny thing in the above take is how everybody royally screws [Openstack](https://wiki.openstack.org/wiki/Docker) in getting into containers when it doesn't need to.
 
-Anyway last year [we](https://github.com/megamsys) had docker running inside a virtual machine. In our [hackathon](https://blog.docker.com/2014/11/announcing-docker-global-hack-day-2-winners/) we demonstrated running containers inside managed VMs. 
+Anyway last year [we](https://github.com/megamsys) had docker running inside a virtual machine. In our [hackathon](https://blog.docker.com/2014/11/announcing-docker-global-hack-day-2-winners/) we demonstrated running containers inside managed VMs.
 
-But **containers are best utilized on baremetal**. 
+But **containers are best utilized on baremetal**.
 
 We needed a way to run it inside bare metal.
 
@@ -135,7 +135,7 @@ Stay with me, Yes we are warming up with the problem now
 
 > **We need a reliable way to run containers in a datacenter with various clustered hosts**
 
-### What do you mean ? 
+### What do you mean ?
 
 A picture is worth a 1000 words.
 
@@ -148,7 +148,7 @@ To do that we need schedulers that can orchestarte and compose containers. We us
 
 Lets look at the orchestration for *on premise* baremetal cloud.
 
-In a unanimous way most companies choose 
+In a unanimous way most companies choose
 
 <table border="1">
     <tr>
@@ -165,32 +165,32 @@ In a unanimous way most companies choose
         <td>Techtonic</td>
         <td><a href="https://tectonic.com/blog/announcing-tectonic/" target="_blank">Techtonic - CoreOS</a></td>
         <td>Kubernetes</td>
-    </tr> 
+    </tr>
     <tr>
         <td>Cloudify</td>
         <td><a href="https://getcloudify.org" target="_blank">Cloudify</a></td>
         <td>Don't know</td>
-    </tr> 
+    </tr>
     <tr>
         <td>Docker</td>
         <td><a href="https://docs.docker.com/compose/" target="_blank">Docker compose</a></td>
         <td>Fig (Docker compose)</td>
-    </tr> 
+    </tr>
      <tr>
         <td>Rancher</td>
         <td><a href="https://rancher.io" target="_blank">Rancher</a></td>
         <td>Don't know</td>
-    </tr> 
+    </tr>
     <tr>
         <td>Panamax by centurylink</td>
         <td><a href="https://panamax.io" target="_blank">Panamax</a></td>
         <td>Kubernetes</td>
-    </tr> 
+    </tr>
     <tr>
         <td>Cloudfoundry</td>
         <td><a href="https://github.com/cloudfoundry-incubator/garden" target="_blank">Garden</a></td>
         <td>Don't know</td>
-    </tr>     
+    </tr>
 </table>
 
 Most vendor use the containter orchestration using **Docker compose [fig]** or **Kubernetes**.
@@ -212,24 +212,24 @@ Well at [Megam](https://github.com/megamsy) as seen from the picture we have own
 
 ----
 
-## Diving into the problem 
+## Diving into the problem
 
 > **We need a reliable way to run containers in a datacenter with various clustered hosts**
 
 ### [Docker swarm](https://docs.docker.com/swarm/)
 
-We started looking at [docker swarm](https://docs.docker.com/swarm/), it sounded so sweat that you can have run *swarm* and just join new docker engine into our "dockercluster" on the go as your datacenter nodes expand. 
+We started looking at [docker swarm](https://docs.docker.com/swarm/), it sounded so sweat that you can have run *swarm* and just join new docker engine into our "dockercluster" on the go as your datacenter nodes expand.
 
 ###No we were plain WRONG.
 
 
-Why ? Since if you visit our architecture, we had **docker engines** running in bunch of servers, and a swarm cluster being formed. The **swarm master** will talk to all the **docker engines** and provision containers on bare metal in a load balanced way in all the hosts. 
+Why ? Since if you visit our architecture, we had **docker engines** running in bunch of servers, and a swarm cluster being formed. The **swarm master** will talk to all the **docker engines** and provision containers on bare metal in a load balanced way in all the hosts.
 
 `Eg:`
 
 * As a developer0 lets say i submitted the first container from [our public beta developer edition - console.megam.io](https://console.megam.io] - Oh yeah you have an [onpremise edition](http://docs.megam.io/docs/what-is-megam-cloud-platform-do)  from a marketplace
 * Similarly developer1 - developer2 submit concurrently to the swarm cluster
-* swarm needs to spread and schedule/load balance the containers on all the hosts equally. 
+* swarm needs to spread and schedule/load balance the containers on all the hosts equally.
 
 Whereas the current swarm is broken by having a mutex lock to a variable that just waits until the first container that you  submitted is complete.
 
@@ -250,4 +250,4 @@ Once we fixed the above code and packaged swarm, it worked like a charm.
 
 We believe Docker doesn't want to open up its default scheduler but force people to use Mesos. We at Megam are allegic to Java (JVM) as it bloats too much memory and we use judicially.
 
-[Setup and give it a try](http://docs.megam.io). 
+[Setup and give it a try](http://docs.megam.io).

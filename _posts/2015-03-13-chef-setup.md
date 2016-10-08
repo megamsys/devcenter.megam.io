@@ -1,15 +1,14 @@
 ---
 title: Chef-Setup
-slug: chef-setup
-date_published: 2015-03-13T09:31:27.078Z
-date_updated:   2015-03-13T09:33:50.334Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: Chef-Setup
 ---
-
 Chef is a configuration management and automation platform from [Opscode](https://www.chef.io/). Chef helps you describe your infrastructure with code. Because your infrastructure is managed with code, it can be automated, tested and reproduced with ease.
 
 Assumption: Ruby installed
 
-#Server Installation
+# Server Installation
 The Chef server acts as a hub for configuration data. The Chef server stores cookbooks, the policies that are applied to nodes, and metadata that describes each registered node that is being managed by the chef-client. Nodes use the chef-client to ask the Chef server for configuration details, such as recipes, templates, and file distributions. The chef-client then does as much of the configuration work as possible on the nodes themselves (and not on the Chef server). This scalable approach distributes the configuration effort throughout the organization.
 
 Download chef-server package from here [http://downloads.chef.io/chef-server/](http://downloads.chef.io/chef-server/)
@@ -29,7 +28,7 @@ It prints to the screen afterwards that you should run this next command to actu
 Verify chef-server installation by entering this command
 
 	$ sudo chef-server-ctl test
-    
+
 Once this step is complete, the server should be up and running. You can access the web interface immediately by typing https:// followed by your server's domain name or IP address.
 
 	https://server_domain_or_IP
@@ -44,7 +43,7 @@ The default login credentials are as follows:
 	Default Password: p@ssw0rd1
 
 
-##Workstation Installation
+## Workstation Installation
 
 Install chef using rubygems
 
@@ -89,6 +88,3 @@ Now you can check it from workstation with the below commands
 
     knife client list
     knife node list
-
-
-

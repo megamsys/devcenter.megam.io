@@ -1,21 +1,21 @@
 ---
 title: How to launch PHP - PostageApp in MegamAfrica
-slug: how-to-launch-postageapp-in-php
-date_published: 2016-05-10T09:51:33.815Z
-date_updated:   2016-05-27T12:39:33.982Z
+layout: post
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: How to launch PHP - PostageApp in MegamAfrica
 ---
 
-####Introduction
+#### Introduction
 
    The PostageApp is used in quick way to deliver the email. This application supports PHP.It optionally attachs it to the mail server.
-   
+
 This tutorial will guide you in launching a php web application (PostageApp) in MegamAfrica.
-   
+
    <a href="https://console.megamafrica.com"target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" /></a>
 
-####Prerequisites
- 
+#### Prerequisites
+
 * You are running Ubuntu 14.04 or Linux workstation.
 
 * Git installed on your workstation, which you can do by following the [How To Install Git with Apt.](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04)
@@ -26,14 +26,14 @@ This tutorial will guide you in launching a php web application (PostageApp) in 
 
  * You have to install openssh-server for ssh access in your local system.
 
-     
+
          sudo apt-get install openssh-server
-   
+
  check SSH installed on your system
- 
+
         ps aux | grep sshd
-   
-###Step-1 Fork PostageApp
+
+### Step-1 Fork PostageApp
 * Fork PostageApp
 from https://github.com/verticeapps/php_postage.git
 
@@ -41,12 +41,12 @@ from https://github.com/verticeapps/php_postage.git
 
 * The php_postage repository is forked into your git repository
 
-####Step - 2 Launch PostageApp
+#### Step - 2 Launch PostageApp
 1. Go to MegamAfrica Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
-4. Click PHP Icon.A window will pop up for your repository selection. 
+4. Click PHP Icon.A window will pop up for your repository selection.
 
 3. Pick a repository by choosing your repository.
 
@@ -59,14 +59,14 @@ from https://github.com/verticeapps/php_postage.git
 * Voila ! Your App is up to date.
 
 * Now that you have launched your app, you might want to launch a service (database) and bind it
-####Step - 2 Buildpack for php
+#### Step - 2 Buildpack for php
 
-We use a default PHP build pack using our super cool chef-repo. 
+We use a default PHP build pack using our super cool chef-repo.
 
       #!/bin/bash
       #Php builder
-      #megam_php 
-      local_repo=/var/www/html/current 
+      #megam_php
+      local_repo=/var/www/html/current
       remote_repo=https://github.com/verticeapps/php_postage.git
       megam_home=/var/lib/megam/gulp
       filename=$(basename "$remote_repo")
@@ -85,7 +85,7 @@ We use a default PHP build pack using our super cool chef-repo.
       service apache2 restart
 
 
-####Step - 3 Open Your Web Browser
+#### Step - 3 Open Your Web Browser
 
 You can access your web page using http://IP_ADDRESS/current
 
@@ -96,7 +96,7 @@ Voila ! Your App is up to date.
 ####Conclusion
 These are the very simple steps to launch a php web app (PostageApp) using github repository.
 
-####Deploy PHP app now
+#### Deploy PHP app now
 
 <a href="https://console.megamafrica.com"target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" /></a>
