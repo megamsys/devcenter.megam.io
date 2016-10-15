@@ -38,17 +38,21 @@ bundle install
 
 ## Add your new technical doc as markup to your master.
 
+Create a file named `__your_blog_title_here_.md` with the following header
+
+```yaml
+
+---
+title: "Cassandra Replication - HA"
+layout: post
+author: "rajesh"
+og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
+description: "Cassandra Replication - HA"
+---
+
 ```
 
-# Copy / Paste an article from _posts/ and create your own __your_blog_title_here_.md
-
-```
-
-
-## Go to `_posts` directory, and edit the .md files.
-
-
-## Make sure you have the `author name/picture from https://www.megam.io/about` added
+## Make sure you have the `author` from `_data/authors.yaml`.
 
 ## Verify if your post looks good.
 
@@ -77,6 +81,6 @@ Send us a pull request.
 
 When the pull request gets merged, devcenter will be refreshed automagically.
 
-#LICENSE
+# LICENSE
 
-MIT
+Creative Commons
