@@ -1,6 +1,5 @@
 ---
 title: How to launch Nodejs - etherpad-lite in MegamVertice
-author: ranjitha
 layout: post
 author: "vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
