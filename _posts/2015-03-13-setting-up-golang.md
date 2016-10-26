@@ -1,5 +1,6 @@
 ---
 title: Setting up Golang
+author: rajthilak
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Setting up Golang
