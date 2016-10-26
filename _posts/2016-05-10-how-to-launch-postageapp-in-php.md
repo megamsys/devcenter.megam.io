@@ -1,5 +1,6 @@
 ---
 title: How to launch PHP - PostageApp in MegamVertice
+author: ranjitha
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch PHP - PostageApp in MegamVertice
@@ -11,8 +12,8 @@ description: How to launch PHP - PostageApp in MegamVertice
 
 This tutorial will guide you in launching a php web application (PostageApp) in MegamVertice.
 
-   <a href="https://console.megamafrica.com"target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" /></a>
+   <a href="https://docs.megam.io/installation/prequisites/"target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 #### Prerequisites
 
@@ -98,5 +99,5 @@ These are the very simple steps to launch a php web app (PostageApp) using githu
 
 #### Deploy PHP app now
 
-<a href="https://console.megamafrica.com"target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/"target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

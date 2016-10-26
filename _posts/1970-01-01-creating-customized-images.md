@@ -1,6 +1,7 @@
 
 ---
 title: Building your own VM Image (Dockerfile for VMs)
+author: ranjitha
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Building your own VM Image (Dockerfile for VMs)
@@ -104,3 +105,7 @@ Instead of modifying the original image downloaded we can use a feature of qcow2
      qemu-img convert -f qcow2 -O qcow2 -o compat=0.10 ubuntu.qcow2 ubuntu-final.qcow2
 
     qemu-img convert -f qcow2 -O vmdk ubuntu.qcow2 ubuntu-final.vmdk
+
+###Conclusion
+
+    Voila! These are the very simple steps successfully  build our own image.

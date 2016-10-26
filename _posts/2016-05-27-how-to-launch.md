@@ -10,7 +10,7 @@ Apache CouchDB, commonly referred to as CouchDB, is open source database softwar
 
 This tutorial will set up launching CouchDB.
 
-[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
+[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)](https://console.megamafrica.com)
 
 ### Prerequisites
 
@@ -73,4 +73,4 @@ These are the very simple steps to launch CouchDB in virtual machine. Creating v
 ### To Deploy your app
 
 
-[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
+[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)](https://docs.megam.io/installation/prequisites/)
