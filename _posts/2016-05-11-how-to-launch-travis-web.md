@@ -1,8 +1,8 @@
 ---
-title: How to launch travis-web in MegamAfrica
+title: How to launch travis-web in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch travis-web in MegamAfrica
+description: How to launch travis-web in MegamVertice
 ---
 ### Introduction
 In software development, Travis-web is an open-source hosted, distributed continuous integration service used to build and test projects hosted at GitHub. Travis CI is configured by adding a file named .travis.yml, which is a YAML format text file, to the root directory of the GitHub repository.
@@ -38,7 +38,7 @@ from [here](https://github.com/verticeapps/node_travisweb.git)
 * The travisweb is forked into your git repository
 
 ### Step-2 create SSHKey and launch the app
-* Then go to your MegamAfrica Dashboard
+* Then go to your MegamVertice Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
@@ -55,7 +55,7 @@ from [here](https://github.com/verticeapps/node_travisweb.git)
 * Now that you have launched your app, you might want to launch a service (database) and bind it
 
 ### Start script
-MegamAfrica will look for a start script named `start as follows.
+MegamVertice will look for a start script named `start as follows.
 
 	#!/bin/sh
  	sudo invoke-rc.d shellinabox stop

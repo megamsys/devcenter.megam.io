@@ -1,15 +1,15 @@
 ---
-title: How to launch DockerContainer in MegamAfrica
+title: How to launch DockerContainer in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch DockerContainer in MegamAfrica
+description: How to launch DockerContainer in MegamVertice
 ---
 
 
 #### Introduction
 Docker containers wrap up a piece of software in a complete filesystem that contains everything it needs to run: code, runtime, system tools, system libraries – anything you can install on a server. This guarantees that it will always run the same, regardless of the environment it is running in.
 
-This tutorial will guide you launching a Docker Container in MegamAfrica.
+This tutorial will guide you launching a Docker Container in MegamVertice.
 
 <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
@@ -23,7 +23,7 @@ This tutorial will guide you launching a Docker Container in MegamAfrica.
 
 *  You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 * You have to install openssh-server for ssh access.
 
@@ -37,7 +37,7 @@ This tutorial will guide you launching a Docker Container in MegamAfrica.
 
  This initial section contains everything you need to get  docker container and running on your server.
 
- * Go to your MegamAfrica Dashboard.
+ * Go to your MegamVertice Dashboard.
 
  * Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 

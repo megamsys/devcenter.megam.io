@@ -1,8 +1,8 @@
 ---
-title: How to launch MySQL in MegamAfrica
+title: How to launch MySQL in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch MySQL in MegamAfrica
+description: How to launch MySQL in MegamVertice
 ---
 
 ### Introduction
@@ -72,7 +72,7 @@ successfully launched the vm and login into MySQL.
 
 ### Conclusion
 
-This is a good head-start for launching MySQL in MegamAfrica.
+This is a good head-start for launching MySQL in MegamVertice.
 
 ### Deploy MySQL now
 

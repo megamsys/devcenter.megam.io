@@ -68,7 +68,7 @@ You can access your web page using http://localhost:5984/
 
 ### Conclusion
 
-These are the very simple steps to launch CouchDB in virtual machine. Creating vm is faster, so it takes only less time. This is a good head-start for launching CouchDB in MegamAfrica.
+These are the very simple steps to launch CouchDB in virtual machine. Creating vm is faster, so it takes only less time. This is a good head-start for launching CouchDB in MegamVertice.
 
 ### To Deploy your app
 

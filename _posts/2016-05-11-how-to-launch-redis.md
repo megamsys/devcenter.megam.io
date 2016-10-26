@@ -1,8 +1,8 @@
 ---
-title: How to launch Redis in MegamAfrica
+title: How to launch Redis in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch Redis in MegamAfrica
+description: How to launch Redis in MegamVertice
 ---
 
 ### Introduction
@@ -24,7 +24,7 @@ This tutorial will guide you in launching Redis.
 * An account on GitHub, which is a Git repository host.
 
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server in your linux machine for ssh access.
 
@@ -81,7 +81,7 @@ Successfully launched the vm and login into Redis.
 
 ### Conclusion
 
-These are the very simple steps to launch Redis in virtual machine.This is a good head-start for launching Redis in MegamAfrica.
+These are the very simple steps to launch Redis in virtual machine.This is a good head-start for launching Redis in MegamVertice.
 
 ### Deploy Redis service
 
