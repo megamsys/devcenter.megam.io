@@ -12,7 +12,7 @@ Spring Web Flow facilitates building the j2EE based web applications that requir
 This tutorial will guide you in launching a J2EE web application (spring-webflow) in MegamVertice.
 
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
 
@@ -24,7 +24,7 @@ This tutorial will guide you in launching a J2EE web application (spring-webflow
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
 You have to install openssh-server for ssh access.
@@ -46,7 +46,7 @@ In this tutorial you will see the steps to launch the J2EE using Spring-webflow 
 ###Step-2 Launch the app
 1. Go to MegamVertice Dashboard
 
-2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
+2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
 
 3. Click Java Icon.A window will pop up for your git repository selection.
 
@@ -118,4 +118,4 @@ These are the very simple steps to launch a J2EE web app (spring-webflow) using 
 ###Deploy Java app now
 
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

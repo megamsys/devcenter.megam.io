@@ -38,7 +38,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get c/c++ running on your server.
 
-* First, ensure the user can login to https://console.megamafrica.com.
+* First, ensure the user can login to https://docs.megam.io/overview/tour/.
 
 * Go to the Market Places, click the C/C++.
 

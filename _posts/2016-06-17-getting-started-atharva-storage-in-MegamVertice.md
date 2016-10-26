@@ -15,11 +15,11 @@ This tutorial will guide you creating atharva storage  in MegamVertice.
 
 ### Prerequisites
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
 ### Create Atharva storage in MegamVertice
 
-* First, ensure the user can login to https://console.megamafrica.com.
+* First, ensure the user can login to https://docs.megam.io/overview/tour/.
 
 * Upon successful signin, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)

@@ -39,7 +39,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get Redis and running on your server.
 
-* First, ensure the user can login to our console.megamafrica.com
+* First, ensure the user can login to our https://docs.megam.io/overview/tour/
 
 * Go to the Market Places.
 

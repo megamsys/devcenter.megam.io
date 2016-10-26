@@ -2,7 +2,7 @@
 title: Hetzner networking in ubuntu opennebula host
 layout: post
 # Author.
-author: vijaykanth
+author: "thomas"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Hetzner networking in ubuntu opennebula host
 ---
