@@ -1,6 +1,7 @@
 ---
 title: Backup your data in a Cloud Storage - MegamVertice
 layout: post
+author: Rajesh
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Backup your data in a Cloud Storage - MegamVertice
 ---

@@ -1,6 +1,7 @@
 ---
 title: Use Windows client  S3 Browser to connect with MegamVertice Storage (ceph)
 layout: post
+author: Rajesh
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Use Windows client  S3 Browser to connect with MegamVertice Storage (ceph)
 ---
@@ -28,7 +29,7 @@ This tutorial will guide you in setting up a **S3 Browser windows client on your
 
 * You are running Windows 7 or later version. This was tested on Windows 10.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
 * You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](http://devcenter.megam.io/2016/06/17/getting-started-atharva-storage-in-megamafrica/).
 
@@ -59,7 +60,7 @@ This initial section contains everything you need to setup S3 Browser windows na
 		Access key
 		Secret key
 
-You can see your `Access-key` and `Secret-key` from your `profile page` in MegamVertice(https://console.megamafrica.com)
+You can see your `Access-key` and `Secret-key` from your `profile page` in MegamVertice(https://docs.megam.io/overview/tour/)
 
 * Click the Add new account button the account is created and  it display the bucket already created in megamafrica.
 

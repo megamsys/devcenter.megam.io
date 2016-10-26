@@ -1,7 +1,7 @@
 ---
 title: "Cassandra Replication - HA"
 layout: post
-author: "rajesh"
+author: Rajesh
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: "Cassandra Replication - HA"
 ---

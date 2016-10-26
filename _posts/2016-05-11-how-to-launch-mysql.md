@@ -1,6 +1,7 @@
 ---
 title: How to launch MySQL in MegamVertice
 layout: post
+author: Rajesh
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch MySQL in MegamVertice
 ---
