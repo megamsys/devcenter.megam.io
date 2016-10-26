@@ -1,8 +1,9 @@
 ---
-title: How to launch WordPress in MegamAfrica
+title: How to launch WordPress in MegamVertice
 layout: post
+author: "vijayakanth"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch WordPress in MegamAfrica
+description: How to launch WordPress in MegamVertice
 ---
 
 ##### Introduction
@@ -11,11 +12,11 @@ WordPress is web software you can use to create a beautiful website, blog, or ap
 
 And WordPress is a free and open-source content management system (CMS) based on PHP and MySQL. WordPress is installed on a web server, which either is part of an Internet hosting service or is a network host itself; the first case may be on a service like WordPress.com, for example, and the second case is a computer running the software package WordPress.org. [readmore](https://wordpress.org/news/category/documentation/)
 
-[![megamafrica](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
+[![megamafrica](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://docs.megam.io/installation/prequisites)
 
 ##### Prerequisites
 
-You have to create a valid credential access for https://console.megamafrica.com.
+You have to create a valid credential access for https://docs.megam.io/installation/prequisites.
 
 You have to install openssh-server for ssh access.
 
@@ -29,7 +30,7 @@ Check SSH working properly
 
 This initial section contains everything you need to get WordPress and running on your server.
 
-First, ensure the user to login our [site](https://console.megamafrica.com) .
+First, ensure the user to login our [site](https://docs.megam.io/installation/prequisites) .
 
 Go to the Market Places to click the create a new `WordPress on Collaboration`.
 
@@ -97,9 +98,9 @@ Login with your user and password it will get to wordpress design page successfu
 
 ##### Conclusion
 
-These are the very simple steps to launch WordPress in virtual machine. Installing wordpress is faster, so it takes only less time. This is a good head-start for launching a WordPress in [MegamAfrica](https://console.megamafrica.com).
+These are the very simple steps to launch WordPress in virtual machine. Installing wordpress is faster, so it takes only less time. This is a good head-start for launching a WordPress in [MegamVertice](https://docs.megam.io/installation/prequisites).
 
 To Launch your WordPress Server click here
 
 
-[![megamafrica](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
+[![megamafrica](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://docs.megam.io/installation/prequisites)
