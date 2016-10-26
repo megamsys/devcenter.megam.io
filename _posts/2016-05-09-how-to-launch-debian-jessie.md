@@ -1,6 +1,7 @@
 ---
 title: How to Launch Debian Jessie in MegamVertice
 layout: post
+author: "rajesh"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to Launch Debian Jessie in MegamVertice
 ---
@@ -23,7 +24,7 @@ This tutorial will guide you in launching Debian Jessie in MegamVertice.
 * An account on GitHub, which is a Git repository host.
 To follow this tutorial :
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server for ssh access.
 
@@ -37,7 +38,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get Debian Jessie and running on your server.
 
-First, ensure the user can login to https://console.megamafrica.com.  
+First, ensure the user can login to https://docs.megam.io/overview/tour/.  
 
 * Go to the Market Place.
 

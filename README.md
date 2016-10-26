@@ -16,7 +16,7 @@ There are 3 steps
 
 ![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/devcenter_megam_io.png)
 
-Every post appears as 
+Every post appears as
 
 ![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/devcenter_megam_io_cassandra.png)
 
