@@ -7,7 +7,7 @@ description: How to launch travis-web in MegamVertice
 ### Introduction
 In software development, Travis-web is an open-source hosted, distributed continuous integration service used to build and test projects hosted at GitHub. Travis CI is configured by adding a file named .travis.yml, which is a YAML format text file, to the root directory of the GitHub repository.
 
-[![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://docs.megam.io/installation/prequisites)
+[![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://console.megamafrica.com)
 
 
 ### Prerequisites
@@ -18,7 +18,7 @@ In software development, Travis-web is an open-source hosted, distributed contin
 
 * An account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential access for https://docs.megam.io/installation/prequisites.
+* You have to create a valid credential access for https://console.megamafrica.com.
 
 * You have to install openssh-server for ssh access.
 
@@ -84,4 +84,4 @@ You can access your web page using http://IP_ADDRESS/4200
 These are the very simple steps to launch Nodejs using travis-web. Finally using github repository and launched the travis-web to run successfully.
 
 ### To deploy your App 
-[![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://docs.megam.io/installation/prequisites)
+[![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://console.megamafrica.com)

@@ -11,7 +11,7 @@ MySQL is the world's most popular open source database. It runs on virtually all
 
 This tutorial will guide you in launching MySQL.
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 ## Prerequisites
@@ -22,7 +22,7 @@ This tutorial will guide you in launching MySQL.
 
 * An account on GitHub, which is a Git repository host.
 
-You have to create a valid credential access for https://docs.megam.io/installation/prequisites.
+You have to create a valid credential access for https://console.megamafrica.com.
 
 You have to install openssh-server for ssh access.
 
@@ -36,7 +36,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get MySQL and running on your server.
 
-* First, ensure the user can login to https://docs.megam.io/installation/prequisites.
+* First, ensure the user can login to https://console.megamafrica.com.
 
 * Go to the Market Places.
 
@@ -76,5 +76,5 @@ This is a good head-start for launching MySQL in MegamVertice.
 
 ### Deploy MySQL now
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

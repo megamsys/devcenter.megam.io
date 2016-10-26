@@ -11,7 +11,7 @@ Docker containers wrap up a piece of software in a complete filesystem that cont
 
 This tutorial will guide you launching a Docker Container in MegamVertice.
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 
@@ -23,7 +23,7 @@ This tutorial will guide you launching a Docker Container in MegamVertice.
 
 *  You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/installation/prequisites. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 * You have to install openssh-server for ssh access.
 
@@ -75,5 +75,5 @@ You can access your web page using http://IP_ADDRESS:8080
 Finally These are the steps in launched the docker container in successfully.
 
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

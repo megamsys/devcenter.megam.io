@@ -11,7 +11,7 @@ description: How to launch SDK for C/C++/Python in MegamVertice
 
  This tutorial will set up launching sdk using c/c++, python.
 
- <a href="https://docs.megam.io/installation/prequisites" target="_blank">
+ <a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 #### Prerequisites
@@ -22,7 +22,7 @@ description: How to launch SDK for C/C++/Python in MegamVertice
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/installation/prequisites. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
 You have to install openssh-server for ssh access.
@@ -37,7 +37,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get c/c++ running on your server.
 
-* First, ensure the user can login to https://docs.megam.io/installation/prequisites.
+* First, ensure the user can login to https://console.megamafrica.com.
 
 * Go to the Market Places, click the C/C++.
 
@@ -166,5 +166,5 @@ These are the very simple steps to launch SDK  using C/C++/Python.
 
 #### Deploy your C/C++/Python SDK now
 
-<a href="https://docs.megam.io/installation/prequisites"target="_blank">
+<a href="https://console.megamafrica.com"target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" />

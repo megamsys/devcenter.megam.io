@@ -10,7 +10,7 @@ Spring Web Flow facilitates building the j2EE based web applications that requir
 
 This tutorial will guide you in launching a J2EE web application (spring-webflow) in MegamVertice.
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 
@@ -22,7 +22,7 @@ This tutorial will guide you in launching a J2EE web application (spring-webflow
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/installation/prequisites. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server for ssh access.
 
@@ -113,5 +113,5 @@ Here you will click the webflow show case link.
 These are the very simple steps to launch a J2EE web app (spring-webflow) using github repository.
 
 ###Deploy Java app now
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

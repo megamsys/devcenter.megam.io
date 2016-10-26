@@ -11,7 +11,7 @@ Etherpad is a really-real time collaborative editor maintained by the Etherpad C
 
 This tutorial will guide you in launching a Nodejs web application (etherpad-lite) in MegamVertice.
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 ### Prerequisites
@@ -23,7 +23,7 @@ This tutorial will guide you in launching a Nodejs web application (etherpad-lit
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/installation/prequisites. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 * You have to install openssh-server for ssh access in your worstation.
 
@@ -81,5 +81,5 @@ You can access your web page using http://IP_ADDRESS/9001
 These are the very simple steps to launch a Nodejs web app (etherpad-lite) using github repository.
 
 ### Deploy Nodejs app now
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

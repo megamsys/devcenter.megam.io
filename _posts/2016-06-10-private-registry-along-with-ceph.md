@@ -20,7 +20,7 @@ You should use the Registry if you want to:
 
 This tutorial will guide you in setting up a **Private docker registry** in MegamVertice.
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 ### Prerequisites
@@ -31,13 +31,13 @@ This tutorial will guide you in setting up a **Private docker registry** in Mega
 
 * An account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/installation/prequisites.[How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing https://console.megamafrica.com.[How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
 #### Introducing Atharva Storage - MegamVertice
 
 **Atharva Storage** - MegamVertice is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
 
-Upon successful signin to https://docs.megam.io/installation/prequisites, look for the icon
+Upon successful signin to https://console.megamafrica.com, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
  at the top right hand corner named `Storage`
 ![](/content/images/2016/06/atharva-1.jpg)
@@ -48,7 +48,7 @@ This initial section contains everything you need to set private registry on you
 
 ##### Step-1 Creating Ubuntu VM
 
-* First, ensure you can login to https://docs.megam.io/installation/prequisites.
+* First, ensure you can login to https://console.megamafrica.com.
 
 *  Go to the Market Places.
 
@@ -114,7 +114,7 @@ Add an extra STORAGE_PATH=/registry  to create a child folder under `docker-regi
          registry
 
          /* enter your bucket-name here.that you are created in step-2.
-        You can see your Access-key and Secret-key from your profile page in MegamVertice(https://docs.megam.io/installation/prequisites) */
+        You can see your Access-key and Secret-key from your profile page in MegamVertice(https://console.megamafrica.com) */
 
 * Create a docker images by running the following command
 
@@ -143,7 +143,7 @@ As you are inside the VM, the private registry is running under `127.0.0.1:5000`
 
 * Let us verify if the image is stored
 
-Logon https://docs.megam.io/installation/prequisites goto storage place. You can see the docker images in file structure order.
+Logon https://console.megamafrica.com goto storage place. You can see the docker images in file structure order.
 
 ![](/content/images/2016/06/docker-1.jpg)
 
@@ -184,5 +184,5 @@ This is a good head-start for deploy a private docker-registry in MegamVertice.
 
 ### Deploy your Private Docker Registry now
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

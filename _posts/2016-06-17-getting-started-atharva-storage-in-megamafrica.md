@@ -9,16 +9,16 @@ description: Getting started Atharva storage in MegamVertice
 **Atharva Storage** - MegamVertice is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
 
 This tutorial will guide you creating atharva storage  in MegamVertice.
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 ### Prerequisites
 
-* You have to create a valid credential for accessing https://docs.megam.io/installation/prequisites. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
 ### Create Atharva storage in MegamVertice
 
-* First, ensure the user can login to https://docs.megam.io/installation/prequisites.
+* First, ensure the user can login to https://console.megamafrica.com.
 
 * Upon successful signin, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
@@ -29,7 +29,7 @@ This tutorial will guide you creating atharva storage  in MegamVertice.
 
 * Bucket is successfully created and also its created the `access-key` and `secret-key` for your account.
 
-* You can see your Access-key and Secret-key from your profile page in MegamVertice (https://docs.megam.io/installation/prequisites).
+* You can see your Access-key and Secret-key from your profile page in MegamVertice (https://console.megamafrica.com).
 ![](/content/images/2016/06/storage-keys.jpg)
 
 * Now, You can upload a files in `Atharva Storage` using your Access-key and Secret-key.
@@ -42,7 +42,7 @@ This tutorial will guide you creating atharva storage  in MegamVertice.
 
 * Let us verify if the files is uploaded
 
-Logon https://docs.megam.io/installation/prequisites goto `storage` place. You can see your bucket, and the uploaded files are displayed.
+Logon https://console.megamafrica.com goto `storage` place. You can see your bucket, and the uploaded files are displayed.
 
 ### Conclusion
 
@@ -50,5 +50,5 @@ These are the very simple steps to create an atharva storage in MegamVertice. Me
 
 ###### Deploy a Atharva storage now
 
-<a href="https://docs.megam.io/installation/prequisites" target="_blank">
+<a href="https://console.megamafrica.com" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
