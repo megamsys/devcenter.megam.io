@@ -2,6 +2,7 @@
 title: How to launch PHP - PostageApp in MegamVertice
 author: ranjitha
 layout: post
+author: "vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch PHP - PostageApp in MegamVertice
 ---
@@ -12,8 +13,9 @@ description: How to launch PHP - PostageApp in MegamVertice
 
 This tutorial will guide you in launching a php web application (PostageApp) in MegamVertice.
 
-   <a href="https://docs.megam.io/installation/prequisites/"target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
+   <a href="https://docs.megam.io/overview/tour/"target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" /></a>
+
 
 #### Prerequisites
 
@@ -23,7 +25,8 @@ This tutorial will guide you in launching a php web application (PostageApp) in 
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+
 
  * You have to install openssh-server for ssh access in your local system.
 
@@ -99,5 +102,5 @@ These are the very simple steps to launch a php web app (PostageApp) using githu
 
 #### Deploy PHP app now
 
-<a href="https://docs.megam.io/installation/prequisites/"target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
+<a href="https://docs.megam.io/overview/tour/"target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" /></a>

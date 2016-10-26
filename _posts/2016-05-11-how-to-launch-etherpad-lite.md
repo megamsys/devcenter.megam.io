@@ -2,6 +2,7 @@
 title: How to launch Nodejs - etherpad-lite in MegamVertice
 author: ranjitha
 layout: post
+author: "vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch Nodejs - etherpad-lite in MegamVertice
 ---
@@ -12,8 +13,9 @@ Etherpad is a really-real time collaborative editor maintained by the Etherpad C
 
 This tutorial will guide you in launching a Nodejs web application (etherpad-lite) in MegamVertice.
 
-<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+
 
 ### Prerequisites
 
@@ -24,7 +26,8 @@ This tutorial will guide you in launching a Nodejs web application (etherpad-lit
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+
 
 * You have to install openssh-server for ssh access in your worstation.
 
@@ -82,5 +85,6 @@ You can access your web page using http://IP_ADDRESS/9001
 These are the very simple steps to launch a Nodejs web app (etherpad-lite) using github repository.
 
 ### Deploy Nodejs app now
-<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
+
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
