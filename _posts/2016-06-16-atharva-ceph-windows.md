@@ -1,7 +1,7 @@
 ---
 title: Use Windows client  S3 Browser to connect with MegamVertice Storage (ceph)
 layout: post
-author: Rajesh
+author: "rajesh"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Use Windows client  S3 Browser to connect with MegamVertice Storage (ceph)
 ---
@@ -15,7 +15,7 @@ S3 Browser is a freeware Windows client for Amazon S3. Amazon S3 provides a simp
 
 **Atharva Storage** - MegamVertice is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
 
-Upon successful signin to https://console.megamafrica.com, look for the icon
+Upon successful signin to https://docs.megam.io/overview/tour/, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
  at the top right hand corner named `Storage`
 ![](/content/images/2016/06/atharva-1.jpg)
@@ -84,7 +84,7 @@ You can see your `Access-key` and `Secret-key` from your `profile page` in Megam
 
 * Let us verify if the files is uploaded
 
-Logon https://console.megamafrica.com goto `storage` place. You can see your bucket, and the uploaded files are displayed.
+Logon https://docs.megam.io/overview/tour/ goto `storage` place. You can see your bucket, and the uploaded files are displayed.
 
 ### Conclusion
 
