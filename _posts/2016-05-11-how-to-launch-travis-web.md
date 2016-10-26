@@ -8,7 +8,8 @@ description: How to launch travis-web in MegamVertice
 ### Introduction
 In software development, Travis-web is an open-source hosted, distributed continuous integration service used to build and test projects hosted at GitHub. Travis CI is configured by adding a file named .travis.yml, which is a YAML format text file, to the root directory of the GitHub repository.
 
-[![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://docs.megam.io/overview/tour/)
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
 ### Prerequisites
@@ -41,7 +42,7 @@ from [here](https://github.com/verticeapps/node_travisweb.git)
 ### Step-2 create SSHKey and launch the app
 * Then go to your MegamVertice Dashboard
 
-2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
+2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
 
 3. Click Nodejs Icon.A window will pop up with for SSHkey options. You can create new sshkey, use an existing sshkey or upload your own sshkeys too.
 
@@ -85,4 +86,5 @@ You can access your web page using http://IP_ADDRESS/4200
 These are the very simple steps to launch Nodejs using travis-web. Finally using github repository and launched the travis-web to run successfully.
 
 ### To deploy your App
-[![img](/content/images/2016/05/DEPLOY-TO-MEGAM-AFRICA-BIG1-4.png)](https://docs.megam.io/overview/tour/)
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

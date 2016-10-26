@@ -13,7 +13,7 @@ Etherpad is a really-real time collaborative editor maintained by the Etherpad C
 This tutorial will guide you in launching a Nodejs web application (etherpad-lite) in MegamVertice.
 
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
 ### Prerequisites
@@ -25,7 +25,7 @@ This tutorial will guide you in launching a Nodejs web application (etherpad-lit
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
 * You have to install openssh-server for ssh access in your worstation.
@@ -49,7 +49,7 @@ from https://github.com/verticeapps/node_etherpad.git
 ### Step-2 Launch the app
 1. Go to MegamVertice Dashboard
 
-2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
+2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
 
 3. Click Nodejs Icon.A window will pop up for your repository selection.
 
@@ -86,4 +86,4 @@ These are the very simple steps to launch a Nodejs web app (etherpad-lite) using
 ### Deploy Nodejs app now
 
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

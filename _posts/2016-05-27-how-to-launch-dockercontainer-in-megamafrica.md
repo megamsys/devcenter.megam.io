@@ -40,7 +40,7 @@ This tutorial will guide you launching a Docker Container in MegamVertice.
 
  * Go to your MegamVertice Dashboard.
 
- * Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
+ * Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
 
  * Click DockerContainer Icon.
 

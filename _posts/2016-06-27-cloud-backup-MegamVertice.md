@@ -29,7 +29,7 @@ This tutorial will guide you in setting up a **Cloudberry backup tool for window
 
 * You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
-* You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](http://devcenter.megam.io/2016/06/17/getting-started-atharva-storage-in-megamafrica/).
+* You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](http://devcenter.megam.io/2016/06/17/getting-started-atharva-storage-in-megamvertice/).
 
 ### Connecting Cloudberry Backup Desktop client with Atharva (Ceph object storage) MegamVertice
 

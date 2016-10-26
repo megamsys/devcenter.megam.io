@@ -1,6 +1,7 @@
 ---
 title: Data Center using OpenNebula Federation
 layout: post
+author: "vijayakanth"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Data Center using OpenNebula Federation
 ---
