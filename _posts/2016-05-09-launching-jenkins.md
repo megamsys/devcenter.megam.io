@@ -1,7 +1,7 @@
 ---
 title: How to launch Java - continious integration jenkins in MegamVertice
 layout: post
-author: "Vinothini"
+author: "vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch Java - continious integration jenkins in MegamVertice
 ---

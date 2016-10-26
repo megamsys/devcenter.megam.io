@@ -2,7 +2,7 @@
 title: How to launch PHP - PostageApp in MegamVertice
 author: ranjitha
 layout: post
-author: "Vinothini"
+author: "vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch PHP - PostageApp in MegamVertice
 ---
