@@ -1,6 +1,7 @@
 ---
 title: How to launch PHP - OpsWorks   in MegamVertice
 layout: post
+author: "vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch PHP - OpsWorks   in MegamVertice
 ---
@@ -10,8 +11,10 @@ AWS OpsWorks PHP is a simple demo app that can help you get started using your f
 
 This tutorial will guide you in launching a php web application (OpsWorks) in MegamVertice.
 
-<a href="https://console.megamafrica.com" target="_blank">
+
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+
 
 ### Prerequisites
 * You are running Ubuntu 14.04 or Linux workstation.
@@ -20,7 +23,8 @@ This tutorial will guide you in launching a php web application (OpsWorks) in Me
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+
 
 * You have to install openssh-server for ssh access.
 
@@ -98,5 +102,6 @@ You can access your web page using http://IP_ADDRESS/current
 These are the very simple steps to launch a php web app (OpsWorks PHP Simple Demo App) using github repository.
 
 ###Deploy PHP app now
-<a href="https://console.megamafrica.com" target="_blank">
+
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

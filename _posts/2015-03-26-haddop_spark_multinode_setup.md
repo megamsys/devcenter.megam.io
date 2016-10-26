@@ -1,5 +1,6 @@
 ---
 title: Hadoop/Spark multi-node setup
+author: rajthilak
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Hadoop/Spark multi-node setup

@@ -1,6 +1,7 @@
 ---
 title: Getting started in MegamVertice - Open source cloud hosting
 layout: post
+author: "rajesh"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Getting started in MegamVertice - Open source cloud hosting
 ---
@@ -11,8 +12,8 @@ MegamVertice is an end-to-end open source cloud management platform offered as a
 
 This tutorial will guide you in creating an account with MegamVertice.
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 
 You can access MegamVertice by clicking on https://console.megamafrica.com.
@@ -108,5 +109,5 @@ These are the very simple steps to create an account with MegamVertice. MegamVer
 
 ###### Deploy a VM or Container now
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
