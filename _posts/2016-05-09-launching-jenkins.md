@@ -1,6 +1,7 @@
 ---
 title: How to launch Java - continious integration jenkins in MegamAfrica
 layout: post
+author: "Vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch Java - continious integration jenkins in MegamAfrica
 ---
@@ -11,7 +12,7 @@ Jenkins is the leading open-source automation server. Built with Java, it provid
 
 This tutorial will guide you in launching a J2EE web application () in MegamAfrica.
 
-<a href="https://console.megamafrica.com" target="_blank">
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
 
 
@@ -23,7 +24,7 @@ This tutorial will guide you in launching a J2EE web application () in MegamAfri
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server for ssh access.
 
@@ -114,5 +115,5 @@ These are the very simple steps to launch a J2EE web app (jenkins) using github 
 
 
 ### Deploy Java app now
-<a href="https://console.megamafrica.com" target="_blank">
+<a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
