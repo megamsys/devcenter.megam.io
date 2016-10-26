@@ -103,4 +103,4 @@ These are the very simple steps to launch WordPress in virtual machine. Installi
 To Launch your WordPress Server click here
 
 
-[![megamvertice](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
+[![megamvertice](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)](https://docs.megam.io/installation/prequisites/)

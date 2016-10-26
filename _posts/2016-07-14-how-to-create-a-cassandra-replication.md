@@ -13,7 +13,7 @@ Cassandra stores replicas on multiple nodes to ensure reliability and fault tole
 
 A replication factor of 1 means that there is only one copy of each row in the cluster. A replication factor of 2 means two copies of each row, where each copy is on a different node. As a general rule, the replication factor should not exceed the number of nodes in the cluster. However, you can increase the replication factor and then add the desired number of nodes.
 
-[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
+[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)](https://docs.megam.io/installation/prequisites/)
 
 ### Prerequisites
 
@@ -116,4 +116,4 @@ These are the very simple steps to setup cassandra replications in several nodes
 
 ### To Deploy your app
 
-[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png)](https://console.megamafrica.com)
+[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)](https://docs.megam.io/installation/prequisites/)

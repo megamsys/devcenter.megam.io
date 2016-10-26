@@ -1,5 +1,6 @@
 ---
 title: Spark-Notebook For Developer
+author: ranjitha
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Spark-Notebook For Developer
@@ -48,7 +49,7 @@ The Spark is available out of the box, and is simply accessed by the variable sp
 
  Click run button.You will see the output in the cell.
 
-###### Advantages 
+###### Advantages
 
   The construction of models on a full dataset, not just subsets
 
