@@ -1,18 +1,18 @@
 ---
-title: How to Launch Debian Jessie in MegamAfrica
+title: How to Launch Debian Jessie in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to Launch Debian Jessie in MegamAfrica
+description: How to Launch Debian Jessie in MegamVertice
 ---
 
 ### Introduction
 
 Debian is a Unix-like computer operating system that is composed entirely of free software, most of which is under the GNU General Public License, and packaged by a group of individuals known as the Debian. Three main branches are offered: Stable, Testing and Unstable.
 
-This tutorial will guide you in launching Debian Jessie in MegamAfrica.
+This tutorial will guide you in launching Debian Jessie in MegamVertice.
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 ###Prerequisites
 
@@ -23,7 +23,7 @@ This tutorial will guide you in launching Debian Jessie in MegamAfrica.
 * An account on GitHub, which is a Git repository host.
 To follow this tutorial :
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server for ssh access.
 
@@ -70,9 +70,9 @@ Next, Go to the Dashboard and click the domain name a new window will open.
 
 ###Conclusion
 
-These are the very simple steps to launch Debian Jessie virtual machine. This is a good head-start for launching a Debian Jessie in MegamAfrica.
+These are the very simple steps to launch Debian Jessie virtual machine. This is a good head-start for launching a Debian Jessie in MegamVertice.
 
 ###Deploy debian jessie now
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>

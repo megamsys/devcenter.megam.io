@@ -1,18 +1,20 @@
 ---
-title: How to launch PHP - OpsWorks   in MegamAfrica
+title: How to launch PHP - OpsWorks   in MegamVertice
 layout: post
 author: "Vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch PHP - OpsWorks   in MegamAfrica
+description: How to launch PHP - OpsWorks   in MegamVertice
 ---
 
 ### Introduction
 AWS OpsWorks PHP is a simple demo app that can help you get started using your favourite PHP language.
 
-This tutorial will guide you in launching a php web application (OpsWorks) in MegamAfrica.
+This tutorial will guide you in launching a php web application (OpsWorks) in MegamVertice.
+
 
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+
 
 ### Prerequisites
 * You are running Ubuntu 14.04 or Linux workstation.
@@ -22,6 +24,7 @@ This tutorial will guide you in launching a php web application (OpsWorks) in Me
 * You have an account on GitHub, which is a Git repository host.
 
 * You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+
 
 * You have to install openssh-server for ssh access.
 
@@ -42,7 +45,7 @@ from https://github.com/verticeapps/php_simpleapp.git
 * The OpsWorks PHP Simple Demo App repository is forked into your git repository.
 
 ### Step-2 Launch the app
-1. Go to MegamAfrica Dashboard
+1. Go to MegamVertice Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
@@ -99,5 +102,6 @@ You can access your web page using http://IP_ADDRESS/current
 These are the very simple steps to launch a php web app (OpsWorks PHP Simple Demo App) using github repository.
 
 ###Deploy PHP app now
+
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

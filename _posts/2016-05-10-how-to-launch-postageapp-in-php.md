@@ -1,19 +1,21 @@
 ---
-title: How to launch PHP - PostageApp in MegamAfrica
+title: How to launch PHP - PostageApp in MegamVertice
+author: ranjitha
 layout: post
 author: "Vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch PHP - PostageApp in MegamAfrica
+description: How to launch PHP - PostageApp in MegamVertice
 ---
 
 #### Introduction
 
    The PostageApp is used in quick way to deliver the email. This application supports PHP.It optionally attachs it to the mail server.
 
-This tutorial will guide you in launching a php web application (PostageApp) in MegamAfrica.
+This tutorial will guide you in launching a php web application (PostageApp) in MegamVertice.
 
    <a href="https://docs.megam.io/overview/tour/"target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" /></a>
+
 
 #### Prerequisites
 
@@ -24,6 +26,7 @@ This tutorial will guide you in launching a php web application (PostageApp) in 
 * You have an account on GitHub, which is a Git repository host.
 
 * You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+
 
  * You have to install openssh-server for ssh access in your local system.
 
@@ -43,7 +46,7 @@ from https://github.com/verticeapps/php_postage.git
 * The php_postage repository is forked into your git repository
 
 #### Step - 2 Launch PostageApp
-1. Go to MegamAfrica Dashboard
+1. Go to MegamVertice Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 

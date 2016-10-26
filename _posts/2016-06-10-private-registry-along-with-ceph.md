@@ -1,8 +1,8 @@
 ---
-title: How to deploy Private Docker Registry in MegamAfrica
+title: How to deploy Private Docker Registry in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to deploy Private Docker Registry in MegamAfrica
+description: How to deploy Private Docker Registry in MegamVertice
 ---
 
 ### Introduction
@@ -18,10 +18,10 @@ You should use the Registry if you want to:
 - fully own your images distribution pipeline
 - integrate image storage and distribution tightly into your in-house development workflow
 
-This tutorial will guide you in setting up a **Private docker registry** in MegamAfrica.
+This tutorial will guide you in setting up a **Private docker registry** in MegamVertice.
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 ### Prerequisites
 
@@ -31,11 +31,11 @@ This tutorial will guide you in setting up a **Private docker registry** in Mega
 
 * An account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com.[How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing https://console.megamafrica.com.[How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
-#### Introducing Atharva Storage - MegamAfrica
+#### Introducing Atharva Storage - MegamVertice
 
-**Atharva Storage** - MegamAfrica is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
+**Atharva Storage** - MegamVertice is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
 
 Upon successful signin to https://console.megamafrica.com, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
@@ -114,7 +114,7 @@ Add an extra STORAGE_PATH=/registry  to create a child folder under `docker-regi
          registry
 
          /* enter your bucket-name here.that you are created in step-2.
-        You can see your Access-key and Secret-key from your profile page in MegamAfrica(https://console.megamafrica.com) */
+        You can see your Access-key and Secret-key from your profile page in MegamVertice(https://console.megamafrica.com) */
 
 * Create a docker images by running the following command
 
@@ -180,9 +180,9 @@ In our case the docker registry is running at 138.201.98.3.
 
 These are the very simple steps to create vm, utilize our atharva storage.
 
-This is a good head-start for deploy a private docker-registry in MegamAfrica.
+This is a good head-start for deploy a private docker-registry in MegamVertice.
 
 ### Deploy your Private Docker Registry now
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>

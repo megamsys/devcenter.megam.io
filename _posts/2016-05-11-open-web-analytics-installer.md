@@ -1,19 +1,21 @@
 ---
-title: How to launch PHP - Open Web Analytics  in MegamAfrica
+title: How to launch PHP - Open Web Analytics  in MegamVertice
 layout: post
 author: "Vinothini"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch PHP - Open Web Analytics  in MegamAfrica
+description: How to launch PHP - Open Web Analytics  in MegamVertice
 ---
 
 ### **Introduction**
 
 Open Web Analytics (OWA) is an open source web analytics framework written in PHP. OWA was born out of the need for an open source framework that could be used to easily add web analytics features to web sites and applications. The OWA framework also comes with built-in support for popular web applications such as WordPress and MediaWiki. As a generic web analytics framework, OWA can be extended to track and analyze any web application.
 
-This tutorial will guide you in launching a php web application (Open Web Analytics) in MegamAfrica.
+This tutorial will guide you in launching a php web application (Open Web Analytics) in MegamVertice.
+
 
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+
 
 ### **Prerequisites**
 
@@ -45,7 +47,7 @@ from https://github.com/verticeapps/php_webanalytics.git
 * The Open Web Analytics repository is forked into your git repository
 
 ### Step-2 Launch the app
-1. Go to MegamAfrica Dashboard
+1. Go to MegamVertice Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
 
@@ -103,5 +105,6 @@ You can access your web page using http://IP_ADDRESS/current
 These are the very simple steps to launch a PHP web app (Open Web Analytics) using your github repository.
 
 ### Deploy PHP app now
+
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>

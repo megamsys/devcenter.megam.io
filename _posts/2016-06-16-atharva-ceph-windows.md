@@ -1,8 +1,8 @@
 ---
-title: Use Windows client  S3 Browser to connect with MegamAfrica Storage (ceph)
+title: Use Windows client  S3 Browser to connect with MegamVertice Storage (ceph)
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: Use Windows client  S3 Browser to connect with MegamAfrica Storage (ceph)
+description: Use Windows client  S3 Browser to connect with MegamVertice Storage (ceph)
 ---
 
 ### Introduction
@@ -10,9 +10,9 @@ description: Use Windows client  S3 Browser to connect with MegamAfrica Storage 
 S3 Browser is a freeware Windows client for Amazon S3. Amazon S3 provides a simple web services interface that can be used to store and retrieve any amount of data, at any time, from anywhere on the web.
 
 
-#### Introducing Atharva Storage - MegamAfrica
+#### Introducing Atharva Storage - MegamVertice
 
-**Atharva Storage** - MegamAfrica is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
+**Atharva Storage** - MegamVertice is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
 
 Upon successful signin to https://console.megamafrica.com, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
@@ -20,20 +20,20 @@ Upon successful signin to https://console.megamafrica.com, look for the icon
 ![](/content/images/2016/06/atharva-1.jpg)
 
 
-This tutorial will guide you in setting up a **S3 Browser windows client on your windows 7+/10 workstation** and connecting it to manage your atharva storage account in MegamAfrica.
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+This tutorial will guide you in setting up a **S3 Browser windows client on your windows 7+/10 workstation** and connecting it to manage your atharva storage account in MegamVertice.
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 ### Prerequisites
 
 * You are running Windows 7 or later version. This was tested on Windows 10.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
-* You have to create an atharva storage account with MegamAfrica. [How to create an atharva account with MegamAfrica](http://devcenter.megam.io/2016/06/17/getting-started-atharva-storage-in-megamafrica/).
+* You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](http://devcenter.megam.io/2016/06/17/getting-started-atharva-storage-in-megamafrica/).
 
 
-### Connecting  S3 Browser  with Atharva (Ceph object storage) MegamAfrica
+### Connecting  S3 Browser  with Atharva (Ceph object storage) MegamVertice
 
 This initial section contains everything you need to setup S3 Browser windows native client on your server.
 
@@ -45,7 +45,7 @@ This initial section contains everything you need to setup S3 Browser windows na
 
 * Right-click the download file and install it in your windows system.
 
-###### Step-2 Create the storage setting with MegamAfrica
+###### Step-2 Create the storage setting with MegamVertice
 
 * Open the S3 Browser.
 
@@ -59,7 +59,7 @@ This initial section contains everything you need to setup S3 Browser windows na
 		Access key
 		Secret key
 
-You can see your `Access-key` and `Secret-key` from your `profile page` in MegamAfrica(https://console.megamafrica.com)
+You can see your `Access-key` and `Secret-key` from your `profile page` in MegamVertice(https://console.megamafrica.com)
 
 * Click the Add new account button the account is created and  it display the bucket already created in megamafrica.
 
@@ -71,7 +71,7 @@ You can see your `Access-key` and `Secret-key` from your `profile page` in Megam
 
 * Click the  `Create new bucket` button the bucket it created.
 
-##### Upload a file from S3 Browser to MegamAfrica
+##### Upload a file from S3 Browser to MegamVertice
 
 * Click the Upload button.
 
@@ -87,11 +87,11 @@ Logon https://console.megamafrica.com goto `storage` place. You can see your buc
 
 ### Conclusion
 
-These are the very simple steps to create bucket and upload files using Windows native client using S3 Browser to Atharva - MegamAfrica.
+These are the very simple steps to create bucket and upload files using Windows native client using S3 Browser to Atharva - MegamVertice.
 
-This is a good head-start for using S3 Browser & our Athava ceph based object storage in MegamAfrica.
+This is a good head-start for using S3 Browser & our Athava ceph based object storage in MegamVertice.
 
-### Start uploading to our storage - MegamAfrica
+### Start uploading to our storage - MegamVertice
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>

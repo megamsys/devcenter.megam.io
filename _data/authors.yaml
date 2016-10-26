@@ -4,12 +4,24 @@ rajthilak:
   uri: https://www.megam.io
   email: rajthilak@megam.io
   twitter: @rajthilak
+thomas:
+  name: Thomas Alrin
+  title: "Infrastructure Lead"
+  uri: https://www.megam.io
+  email: thomasalrin@gmail.com
+  twitter: @thomasalrin
+yesh:
+  name: Yeshwanth Kumar
+  title: "Platform Engineer"
+  email: morpheyesh@gmail.com
+  uri: https://www.megam.io
+  twitter: @morpheyesh
 ranjitha:
   name: Ranjitha
   uri: https://www.megam.io
   email: ranjithar@megam.io
   title: "Platform Operations Engineer"
-  twitter: @ranjitha
+  twitter: @ranjithar92
 vijaykanth:
   name: M Vijayakanth
   uri: https://www.megam.io

@@ -1,6 +1,7 @@
 ---
 title: MySQL Master-Slave Replication
 layout: post
+author: "vijayakanth"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: MySQL Master-Slave Replication
 ---

@@ -1,8 +1,9 @@
 ---
-title: How to launch SDK for C/C++/Python in MegamAfrica
+title: How to launch SDK for C/C++/Python in MegamVertice
+author: ranjitha
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch SDK for C/C++/Python in MegamAfrica
+description: How to launch SDK for C/C++/Python in MegamVertice
 ---
 
 #### Introduction
@@ -11,8 +12,8 @@ description: How to launch SDK for C/C++/Python in MegamAfrica
 
  This tutorial will set up launching sdk using c/c++, python.
 
- <a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+ <a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 #### Prerequisites
 
@@ -22,7 +23,7 @@ description: How to launch SDK for C/C++/Python in MegamAfrica
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
 You have to install openssh-server for ssh access.
@@ -166,5 +167,5 @@ These are the very simple steps to launch SDK  using C/C++/Python.
 
 #### Deploy your C/C++/Python SDK now
 
-<a href="https://console.megamafrica.com"target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png " alt="wordpres button" />
+<a href="https://docs.megam.io/installation/prequisites/"target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" />

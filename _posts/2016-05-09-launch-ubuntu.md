@@ -1,18 +1,18 @@
 ---
-title: How to Launch Ubuntu 14.04 in MegamAfrica
+title: How to Launch Ubuntu 14.04 in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to Launch Ubuntu 14.04 in MegamAfrica
+description: How to Launch Ubuntu 14.04 in MegamVertice
 ---
 
 ### Introduction
 
 Ubuntu is a Debian-based Linux operating system and distribution for personal computers, smartphones and network servers. It uses Unity as its default user interface. It is based on free software and named after the Southern African philosophy of ubuntu.
 
-This tutorial will guide you in setting up a Ubuntu 14.04 VM in MegamAfrica.
+This tutorial will guide you in setting up a Ubuntu 14.04 VM in MegamVertice.
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 ### Prerequisites
 
@@ -23,7 +23,7 @@ This tutorial will guide you in setting up a Ubuntu 14.04 VM in MegamAfrica.
 * An account on GitHub, which is a Git repository host.
 To follow this tutorial :
 
-* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamAfrica](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing https://console.megamafrica.com. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server for ssh access.
 
@@ -69,9 +69,9 @@ Next, Go to the Dashboard and click the domain name a new window will open.
 
 ### Conclusion
 
-These are the very simple steps to launch Ubuntu virtual machine. This is a good head-start for launching a Ubuntu in MegamAfrica.
+These are the very simple steps to launch Ubuntu virtual machine. This is a good head-start for launching a Ubuntu in MegamVertice.
 
 ### Deploy your Ubuntu VM now
 
-<a href="https://console.megamafrica.com" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/megamafrica/DEPLOY-TO-MEGAM-AFRICA-BIG1.png" alt="wordpres button" /></a>
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
