@@ -1,7 +1,7 @@
 ---
 title: Getting started Atharva storage in MegamVertice
 layout: post
-author: Rajesh
+author: "rajesh"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Getting started Atharva storage in MegamVertice
 ---

@@ -1,7 +1,7 @@
 ---
 title: How to Launch Ubuntu 14.04 in MegamVertice
 layout: post
-author: Rajesh
+author: "rajesh"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to Launch Ubuntu 14.04 in MegamVertice
 ---
