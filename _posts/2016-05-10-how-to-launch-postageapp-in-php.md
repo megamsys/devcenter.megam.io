@@ -94,9 +94,10 @@ You can access your web page using http://IP_ADDRESS/current
 
 ![](/content/images/2016/05/postage4.png)
 
-
 Voila ! Your App is up to date.
+
 ####Conclusion
+
 These are the very simple steps to launch a php web app (PostageApp) using github repository.
 
 #### Deploy PHP app now
