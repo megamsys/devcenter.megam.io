@@ -96,7 +96,7 @@ You can access your web page using http://IP_ADDRESS/current
 
 Voila ! Your App is up to date.
 
-####Conclusion
+#### Conclusion
 
 These are the very simple steps to launch a php web app (PostageApp) using github repository.
 
