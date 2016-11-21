@@ -1,6 +1,7 @@
 ---
 title: Setting up Scala, SBT, Play, Akka
 layout: post
+author: ranjitha
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Setting up Scala, SBT, Play, Akka
 ---

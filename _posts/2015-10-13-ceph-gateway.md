@@ -1,6 +1,7 @@
 ---
 title: Ceph Object Gateway
 layout: post
+author: "vijayakanth"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Ceph Object Gateway
 ---

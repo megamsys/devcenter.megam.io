@@ -1,6 +1,7 @@
 ---
 title: Internationalization in Rails
 layout: post
+author: "rajthilak"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Internationalization in Rails
 ---

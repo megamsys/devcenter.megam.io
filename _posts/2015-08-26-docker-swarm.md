@@ -1,6 +1,7 @@
 ---
 title: Docker swarm
 layout: post
+author: "ranjitha"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Docker swarm
 ---

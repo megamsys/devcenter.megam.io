@@ -1,8 +1,9 @@
 ---
-title: Install Ruby 2.2.2
+title: Install Ruby 2.3.x
 layout: post
+author: rathisvbr
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: Install Ruby 2.2.2
+description: Install Ruby 2.3.x
 ---
 
 We recommend you install *git*, *curl* before you get started.
@@ -37,17 +38,17 @@ to run rvm from anywhere
 
 	$ source ~/.rvm/scripts/rvm
 
-Once you have rvm installed, go ahead and  install ruby 2.2.2
+Once you have rvm installed, go ahead and  install ruby 2.3.1
 
 
-	$ rvm install ruby-2.2.2
+	$ rvm install ruby-2.3.1
 
 
 This will download and install and setup ruby for ya. !
 
 set the installed ruby as default
 
-	$ rvm use ruby-2.2.2 --default
+	$ rvm use ruby-2.3.1 --default
 
 ## Using Ruby
 
@@ -55,7 +56,7 @@ set the installed ruby as default
 
 	rvm rubies
 
-	=\* ruby-2.2.2 [ x86_64 ]
+	=\* ruby-2.3.1 [ x86_64 ]
 
 	=> - current
 	=* - current && default

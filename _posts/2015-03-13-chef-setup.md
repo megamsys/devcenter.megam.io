@@ -1,6 +1,7 @@
 ---
 title: Chef-Setup
 layout: post
+author: thomasalrin
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Chef-Setup
 ---
