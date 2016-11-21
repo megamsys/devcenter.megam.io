@@ -1,6 +1,7 @@
 ---
 title: Design technique for building an API using scalaz
 layout: post
+author: "rajthilak"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Design technique for building an API using scalaz
 ---

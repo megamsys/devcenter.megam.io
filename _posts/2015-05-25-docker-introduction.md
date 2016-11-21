@@ -1,6 +1,7 @@
 ---
 title: "Dockers!  are you ready?"
 layout: post
+author: "rajthilak"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: "Dockers!  are you ready?"
 ---

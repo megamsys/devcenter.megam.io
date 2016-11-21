@@ -1,6 +1,7 @@
 ---
 title: Git for Newbies,made easy!
 layout: post
+author: rathisvbr
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Git for Newbies,made easy!
 ---

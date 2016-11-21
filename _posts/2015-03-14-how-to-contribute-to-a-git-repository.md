@@ -1,6 +1,7 @@
 ---
 title: How to contribute to a Git Repository
 layout: post
+author: vinothini
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to contribute to a Git Repository
 ---
