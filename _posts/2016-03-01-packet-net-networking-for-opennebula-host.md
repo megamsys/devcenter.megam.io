@@ -1,16 +1,20 @@
 ---
 title: Packet.net networking for opennebula host
 layout: post
+author: "thomasalrin"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Packet.net networking for opennebula host
 ---
 
 Our need is to setup `opennebula in packet.net`, so we have a server for both opennebula-frontend and opennebula-host.
 
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
+
 We have a local working server for opennbula-host with openvswitch. But in packet.net we tried normal linux bridge(brctl) and we face some problem in creating virtual machines, because of networking.
 
-	OS 			   : Ubuntu-14.04(trusty)
-	Host IP 	   : 192.168.1.100
+	OS 			       : Ubuntu-14.04(trusty)
+	Host IP 	     : 192.168.1.100
 	Additional IPs : 192.168.2.96/29
 
 NOTE: Actually we have public ips, but for security issues i documented with local ips.
@@ -196,3 +200,8 @@ ip route
 	192.168.2.96/29 dev eth0  proto kernel  scope link  src 192.168.2.98
 
 Now i can connect with my vm from anywhere.
+
+###Deploy your Packet.net networking now
+
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
