@@ -10,6 +10,9 @@ description: Spark-Notebook For Developer
  Spark-notebook allows performing reproducible with scala,Apache Spark and more.
       This is achieved through an interactive web-based editor that can combine Scala code, SQL queries, Markup or even JavaScript in a collaborative manner.
 
+      <a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+      <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
+
 The Spark is available out of the box, and is simply accessed by the variable sparkContext.Spark Notebook offers these capabilities to anybody who needs to play with data, leveraging not only Spark for all data manipulation, but also the Typesafe Reactive Platform, to offer unique power to the user.
 
 # Installation
@@ -57,3 +60,8 @@ The generation of deployable products to Mesos clusters
 The creation of Avro and Play/Akka HTTP powered web services that use the resulting dataset
 
 The creation of repositories and indexes of the analyses and services
+
+###Deploy your Spark-Notebook now
+
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
