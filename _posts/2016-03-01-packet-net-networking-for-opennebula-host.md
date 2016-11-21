@@ -1,7 +1,7 @@
 ---
 title: Packet.net networking for opennebula host
 layout: post
-author: "thomasalrin"
+author: "thomas"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Packet.net networking for opennebula host
 ---
@@ -200,8 +200,3 @@ ip route
 	192.168.2.96/29 dev eth0  proto kernel  scope link  src 192.168.2.98
 
 Now i can connect with my vm from anywhere.
-
-###Deploy your Packet.net networking now
-
-<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
