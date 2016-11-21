@@ -30,7 +30,7 @@ Check SSH working properly
 
 This initial section contains everything you need to get WordPress and running on your server.
 
-First, ensure the user to login our [site](https://docs.megam.io/overview/tour/) .
+First, ensure the user to login our [site]([docs.megam.io](https://docs.megam.io/overview/tour/)) .
 
 Go to the Market Places to click the create a new `WordPress on Collaboration`.
 

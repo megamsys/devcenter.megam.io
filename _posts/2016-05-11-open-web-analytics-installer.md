@@ -13,7 +13,7 @@ Open Web Analytics (OWA) is an open source web analytics framework written in PH
 This tutorial will guide you in launching a php web application (Open Web Analytics) in MegamVertice.
 
 
-<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
@@ -25,7 +25,7 @@ This tutorial will guide you in launching a php web application (Open Web Analyt
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
 * You have to install openssh-server for ssh access in your worstation.
@@ -106,5 +106,5 @@ These are the very simple steps to launch a PHP web app (Open Web Analytics) usi
 
 ### Deploy PHP app now
 
-<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

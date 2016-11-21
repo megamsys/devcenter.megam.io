@@ -24,7 +24,7 @@ This tutorial will guide you in setting up a Ubuntu 14.04 VM in MegamVertice.
 * An account on GitHub, which is a Git repository host.
 To follow this tutorial :
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io]([docs.megam.io](https://docs.megam.io/overview/tour/)). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server for ssh access.
 
@@ -38,7 +38,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get Ubuntu and running on your server.
 
-First, ensure the user can login to https://docs.megam.io/overview/tour/.  
+First, ensure the user can login to [docs.megam.io](https://docs.megam.io/overview/tour/).  
 
 * Go to the Market Places.
 

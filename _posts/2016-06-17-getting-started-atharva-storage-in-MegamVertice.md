@@ -15,11 +15,11 @@ This tutorial will guide you creating atharva storage  in MegamVertice.
 
 ### Prerequisites
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
 
 ### Create Atharva storage in MegamVertice
 
-* First, ensure the user can login to https://docs.megam.io/overview/tour/.
+* First, ensure the user can login to [docs.megam.io](https://docs.megam.io/overview/tour/).
 
 * Upon successful signin, look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
@@ -30,7 +30,7 @@ This tutorial will guide you creating atharva storage  in MegamVertice.
 
 * Bucket is successfully created and also its created the `access-key` and `secret-key` for your account.
 
-* You can see your Access-key and Secret-key from your profile page in MegamVertice (https://docs.megam.io/overview/tour/).
+* You can see your Access-key and Secret-key from your profile page in MegamVertice ([docs.megam.io](https://docs.megam.io/overview/tour/)).
 ![](/content/images/2016/06/storage-keys.jpg)
 
 * Now, You can upload a files in `Atharva Storage` using your Access-key and Secret-key.
@@ -43,7 +43,7 @@ This tutorial will guide you creating atharva storage  in MegamVertice.
 
 * Let us verify if the files is uploaded
 
-Logon https://docs.megam.io/overview/tour/ goto `storage` place. You can see your bucket, and the uploaded files are displayed.
+Logon [docs.megam.io](https://docs.megam.io/overview/tour/) goto `storage` place. You can see your bucket, and the uploaded files are displayed.
 
 ### Conclusion
 

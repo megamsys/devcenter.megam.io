@@ -14,7 +14,7 @@ Cloudberry backup desktop client can be used to backups files and folders on you
 
 **Atharva Storage** - MegamVertice is a "Cloud object storage, low latency and (S3 - AWS Signature v2) compatible API  built on top of ceph - jewel.".
 
-Upon successful signin to https://docs.megam.io/overview/tour/, look for the icon
+Upon successful signin to [docs.megam.io](https://docs.megam.io/overview/tour/), look for the icon
 ![](/content/images/2016/06/storage-1.jpg)
  at the top right hand corner named `Storage`
 ![](/content/images/2016/06/atharva-1.jpg)
@@ -27,9 +27,10 @@ This tutorial will guide you in setting up a **Cloudberry backup tool for window
 
 * You are running Windows 7 or later version. This was tested on Windows 10.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/).
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-atharva-storage-in-megamvertice).
 
-* You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](http://devcenter.megam.io/2016/06/17/getting-started-atharva-storage-in-megamvertice/).
+* You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](https://devcenter.megam.io/getting-started-atharva-storage-in-megamvertice).
+
 
 ### Connecting Cloudberry Backup Desktop client with Atharva (Ceph object storage) MegamVertice
 
@@ -58,7 +59,7 @@ This initial section contains everything you need to setup cloudberry backup too
     	Display Name : Type a name for the account
 		Access key
 		Secret key
-* You can see your `Access-key` and `Secret-key` from your `profile page` in MegamVertice. (https://docs.megam.io/overview/tour/)
+* You can see your `Access-key` and `Secret-key` from your `profile page` in MegamVertice. ([docs.megam.io](https://docs.megam.io/overview/tour/))
 ![](/content/images/2016/06/cloudberry-aws-s3-account-info.png)
 
 * Click the "Advance Settings" and uncheck `Use SSL` link. Now you can see your bucket in `Bucket name` box. choose one of the bucket  you want to backup.
@@ -80,7 +81,7 @@ This initial section contains everything you need to setup cloudberry backup too
 
 * Let us verify if the files is uploaded
 
-Logon https://docs.megam.io/overview/tour/ goto `storage` place. You can see your bucket, and the uploaded files are displayed.
+Logon [docs.megam.io](https://docs.megam.io/overview/tour/) goto `storage` place. You can see your bucket, and the uploaded files are displayed.
 
 ### Conclusion
 

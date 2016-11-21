@@ -23,7 +23,7 @@ This tutorial will guide you in launching MySQL.
 
 * An account on GitHub, which is a Git repository host.
 
-You have to create a valid credential access for https://docs.megam.io/overview/tour/.
+You have to create a valid credential access for [docs.megam.io](https://docs.megam.io/overview/tour/).
 
 You have to install openssh-server for ssh access.
 
@@ -37,7 +37,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get MySQL and running on your server.
 
-* First, ensure the user can login to https://docs.megam.io/overview/tour/.
+* First, ensure the user can login to [docs.megam.io](https://docs.megam.io/overview/tour/).
 
 * Go to the Market Places.
 

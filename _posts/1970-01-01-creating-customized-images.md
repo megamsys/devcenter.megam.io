@@ -1,4 +1,3 @@
-
 ---
 title: Building your own VM Image (Dockerfile for VMs)
 author: ranjitha

@@ -15,7 +15,7 @@ This tutorial will guide you in launching Debian Jessie in MegamVertice.
 <a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
-###Prerequisites
+### Prerequisites
 
 * You are running Ubuntu 14.04 or Linux workstation.
 
@@ -24,7 +24,7 @@ This tutorial will guide you in launching Debian Jessie in MegamVertice.
 * An account on GitHub, which is a Git repository host.
 To follow this tutorial :
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io]([docs.megam.io](https://docs.megam.io/overview/tour/)). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 You have to install openssh-server for ssh access.
 
@@ -34,11 +34,11 @@ To check the ssh is properly installed in our system
 
 	$ ps aux | grep sshd
 
-###Step - 1 Creating Debian Jessie VM
+### Step - 1 Creating Debian Jessie VM
 
 This initial section contains everything you need to get Debian Jessie and running on your server.
 
-First, ensure the user can login to https://docs.megam.io/overview/tour/.  
+First, ensure the user can login to [docs.megam.io](https://docs.megam.io/overview/tour/).  
 
 * Go to the Market Place.
 
@@ -50,7 +50,7 @@ First, ensure the user can login to https://docs.megam.io/overview/tour/.
 
 * Click the create button. it will create the virtual machine.
 
-###Step - 2 Access the Debian Jessie VM Machine
+### Step - 2 Access the Debian Jessie VM Machine
 
 Next, Go to the Dashboard and click the domain name a new window will open.
 
@@ -69,11 +69,11 @@ Next, Go to the Dashboard and click the domain name a new window will open.
 	    $ ssh -i path to/<private_key filename> root@<ipaddress>
 
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to launch Debian Jessie virtual machine. This is a good head-start for launching a Debian Jessie in MegamVertice.
 
-###Deploy debian jessie now
+### Deploy debian jessie now
 
 <a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
