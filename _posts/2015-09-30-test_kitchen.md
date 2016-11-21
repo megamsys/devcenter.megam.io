@@ -1,8 +1,9 @@
 ---
-title: test-kitchen using OpenNebula
+title: Test kitchen using OpenNebula
 layout: post
+author: 'ranjitha'
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: test-kitchen using OpenNebula
+description: Test kitchen using OpenNebula
 ---
 
 # Introduction

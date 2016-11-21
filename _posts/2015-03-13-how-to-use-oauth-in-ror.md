@@ -1,6 +1,7 @@
 ---
 title: How to use Oauth in ROR
 layout: post
+author: rajthilak
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to use Oauth in ROR
 ---

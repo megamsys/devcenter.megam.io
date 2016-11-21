@@ -47,8 +47,6 @@ ii) Execute genisoimage to create the iso that contains those files:
   Now we need to prepare a script with the customizations to be done in the image. For example:
 
 
-
-
     mount LABEL=PACKAGES /mnt
 
     # Install opennebula context package

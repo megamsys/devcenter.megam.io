@@ -1,6 +1,7 @@
 ---
 title: Beautiful API using Scala based Playframework
 layout: post
+author: "indykish"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Beautiful API using Scala based Playframework
 ---

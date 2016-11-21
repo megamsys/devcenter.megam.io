@@ -1,6 +1,7 @@
 ---
 title: "Concurrency in Go!"
 layout: post
+author: "rajthilak"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: "Concurrency in Go!"
 ---
