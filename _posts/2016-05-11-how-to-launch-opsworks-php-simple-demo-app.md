@@ -12,7 +12,7 @@ AWS OpsWorks PHP is a simple demo app that can help you get started using your f
 This tutorial will guide you in launching a php web application (OpsWorks) in MegamVertice.
 
 
-<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
@@ -23,7 +23,7 @@ This tutorial will guide you in launching a php web application (OpsWorks) in Me
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
 * You have to install openssh-server for ssh access.
@@ -103,5 +103,5 @@ These are the very simple steps to launch a php web app (OpsWorks PHP Simple Dem
 
 ###Deploy PHP app now
 
-<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

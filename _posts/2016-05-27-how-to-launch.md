@@ -1,8 +1,8 @@
 ---
-title: How to launch CouchDB in https://docs.megam.io/overview/tour/
+title: How to launch CouchDB in [docs.megam.io](https://docs.megam.io/overview/tour/)
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch CouchDB in https://docs.megam.io/overview/tour/
+description: How to launch CouchDB in [docs.megam.io](https://docs.megam.io/overview/tour/)
 ---
 ### Introduction
 
@@ -10,13 +10,13 @@ Apache CouchDB, commonly referred to as CouchDB, is open source database softwar
 
 This tutorial will set up launching CouchDB.
 
-[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)](https://docs.megam.io/overview/tour/)
+[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)]([docs.megam.io](https://docs.megam.io/overview/tour/))
 
 ### Prerequisites
 
 To follow this tutorial :
 
-You have to create a valid credential for access https://docs.megam.io/overview/tour/.
+You have to create a valid credential for access [docs.megam.io](https://docs.megam.io/overview/tour/).
 
 You have to install openssh-server in your linux machine for ssh access.
 
@@ -30,7 +30,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get CouchDB and running on your server.
 
-* First, ensure the user can login to our https://docs.megam.io/overview/tour/
+* First, ensure the user can login to our [docs.megam.io](https://docs.megam.io/overview/tour/)
 
 * Go to the Market Places.
 
