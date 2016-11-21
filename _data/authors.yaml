@@ -1,5 +1,5 @@
 rajthilak:
-  name: Raj Thilak
+  name: RajThilak
   title: "Cofounder & Chief Architect"
   uri: https://www.megam.io
   email: rajthilak@megam.io
@@ -11,6 +11,7 @@ thomas:
   email: thomasalrin@gmail.com
   twitter: thomasalrin
 yesh:
+
   name: Yeshwanth Kumar
   title: "Platform Engineer"
   email: morpheyesh@gmail.com

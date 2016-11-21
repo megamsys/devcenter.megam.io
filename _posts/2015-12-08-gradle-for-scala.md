@@ -1,5 +1,6 @@
 ---
 title: Gradle for scala
+author: indykish
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Gradle for scala
