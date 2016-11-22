@@ -1,8 +1,8 @@
 ---
-title: How to launch CouchDB in [docs.megam.io](https://docs.megam.io/overview/tour/)
+title: How to launch CouchDB in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch CouchDB in [docs.megam.io](https://docs.megam.io/overview/tour/)
+description: How to launch CouchDB in MegamVertice
 ---
 ### Introduction
 
@@ -10,7 +10,7 @@ Apache CouchDB, commonly referred to as CouchDB, is open source database softwar
 
 This tutorial will set up launching CouchDB.
 
-[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)]([docs.megam.io](https://docs.megam.io/overview/tour/))
+[![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)][docs.megam.io](https://docs.megam.io/overview/tour/)
 
 ### Prerequisites
 

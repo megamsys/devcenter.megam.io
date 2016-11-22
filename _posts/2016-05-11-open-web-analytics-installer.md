@@ -25,7 +25,12 @@ This tutorial will guide you in launching a php web application (Open Web Analyt
 
 * You have an account on GitHub, which is a Git repository host.
 
+<<<<<<< HEAD
 * You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/).
+=======
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
+
+>>>>>>> origin/master
 
 * You have to install openssh-server for ssh access in your worstation.
 

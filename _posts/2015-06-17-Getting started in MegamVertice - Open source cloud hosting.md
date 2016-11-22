@@ -16,7 +16,7 @@ This tutorial will guide you in creating an account with MegamVertice.
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 
-You can access MegamVertice by clicking on https://docs.megam.io/overview/tour/.
+You can access MegamVertice by clicking on [docs.megam.io] (https://docs.megam.io/overview/tour/).
 
 ![](/content/images/2016/05/s1-1.png)
 
@@ -26,26 +26,26 @@ You can access MegamVertice by clicking on https://docs.megam.io/overview/tour/.
 
 Click the `create new account` link, it shows like below.
 
-![](/content/images/2016/05/s2.png)
+![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/login.png)
+
 
 Enter your email-id, password, and mobile number then click verify button the `OTP` will be sent to your mobile.
-
-![](/content/images/2016/05/s3.png)
 
 Pop-up window will be open enter the `OTP` then click the verify button.
 
 It will verify your OTP.
-![](/content/images/2016/05/s5.png)
 
 Finally click the Create Account. You have successfully created an account. Now, you will see the dashboard page.
 
-![](/content/images/2016/05/s6.png)
+![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/dashboard.png)
+
 
 #### 2. Use OAuth - Facebook
 
 You will be see the facebook icon at the bottom of the page. click that icon it shows like below
 
-![](/content/images/2016/05/s1-1-1-1.png)
+![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/fb.png)
+
 
 Enter your credentials and then click the login button.
 
@@ -58,15 +58,13 @@ We are create an default password
  for your account, hence reset it.
 
  You have to reset your password.
-![](/content/images/2016/05/profile.jpg)
+![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/password.png)
 
 Click the `Profile` link in MegamVertice a pop-up window will open, there you can change your password.
 
 #### 3. Use OAuth - Google+
 
 You wiil be see the google+ icon at the bottom of the page in our website. click that icon it shows like below
-
-![](/content/images/2016/05/signin.jpg)
 
 Enter your credentials and then click the login button.
 
@@ -86,7 +84,8 @@ We are create an default password
 
 You wiil be see the github icon at the bottom of the page in our website. click that icon it shows like below
 
-![](/content/images/2016/05/s1-3.png)
+![Image of DevCenter](https://github.com/megamsys/devcenter.megam.io/blob/master/res/github.png)
+
 
 Enter your credentials and then click the login button.
 
