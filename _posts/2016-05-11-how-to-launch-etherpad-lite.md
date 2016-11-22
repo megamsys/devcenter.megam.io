@@ -23,7 +23,7 @@ This tutorial will guide you in launching a Nodejs web application (etherpad-lit
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
+* You have to create a valid credential for accessing Megam Vertice.To know [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
 
 * You have to install openssh-server for ssh access in your worstation.
 
@@ -57,10 +57,10 @@ ensure that your git repository have the start script file as follows.
 
 ### Step-3 Access Web browser
 * You can access your web page by clicking the URL link in App Management Page
-![](/res/url.png)
+![](/res/images/nodeurl.png)
 
 * Now you can see the below page
-![](/res/nodejs.png)
+![](/res/images/nodejs.png)
 
 ### Conclusion
 

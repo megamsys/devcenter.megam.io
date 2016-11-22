@@ -24,7 +24,7 @@ This tutorial will guide you in launching a J2EE web application (spring-webflow
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
+* You have to create a valid credential for accessing Megam Vertice.To know [How to create an account with MegamVertice] (https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
 
 You have to install openssh-server for ssh access.
 
@@ -63,7 +63,7 @@ In this tutorial you will see the steps to launch the J2EE using Spring-webflow 
 
 * Now that you have launched your app, you might want to launch a service (database) and bind it
 
-*Rember that when you select memory its upto `2GB`
+* Rember that when you select memory its upto `2GB`
 
 #### Buildpack for Java
 
