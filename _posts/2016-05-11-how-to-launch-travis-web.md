@@ -20,7 +20,7 @@ In software development, Travis-web is an open-source hosted, distributed contin
 
 * An account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential access for https://docs.megam.io/overview/tour/.
+* You have to create a valid credential access for [https://docs.megam.io/overview/tour/.](https://docs.megam.io/overview/tour/)
 
 * You have to install openssh-server for ssh access.
 

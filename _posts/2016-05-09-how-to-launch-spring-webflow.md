@@ -16,7 +16,7 @@ This tutorial will guide you in launching a J2EE web application (spring-webflow
 
 
 
-###**Prerequisites**
+### **Prerequisites**
 
 * You are running Ubuntu 14.04 or Linux workstation.
 
@@ -24,8 +24,7 @@ This tutorial will guide you in launching a J2EE web application (spring-webflow
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
-
+* You have to create a valid credential for accessing [https://docs.megam.io/overview/tour/.](https://docs.megam.io/overview/tour/)
 
 You have to install openssh-server for ssh access.
 
@@ -33,17 +32,18 @@ You have to install openssh-server for ssh access.
 Check SSH working properly
 
 	ps aux | grep sshd
+
 In this tutorial you will see the steps to launch the J2EE using Spring-webflow application.
 
-###Step-1 Fork spring web-flow
+### Step-1 Fork spring web-flow
 
-* To fork spring web-flow  https://github.com/verticeapps/java_springwebflow.git
+* To fork spring web-flow  [https://github.com/verticeapps/java_springwebflow.git](https://github.com/verticeapps/java_springwebflow.git)
 
 * You will be see the fork option in the top right corner of the git hub page.click the fork option.
 
 * The spring web-flow repository is forked into your git repository.
 
-###Step-2 Launch the app
+### Step-2 Launch the app
 1. Go to MegamVertice Dashboard
 
 2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
@@ -64,7 +64,7 @@ In this tutorial you will see the steps to launch the J2EE using Spring-webflow 
 
 *Rember that when you select memory its upto `2GB`
 
-####Buildpack for Java
+#### Buildpack for Java
 
 Java's default build pack get's going by kicking of maven. We plan to support `ant`, `gradle` in the future
 
@@ -92,7 +92,7 @@ Java's default build pack get's going by kicking of maven. We plan to support `a
 	stop java
 	start java
 
-###**Step-3 Open Your Web browser**
+### **Step-3 Open Your Web browser**
   You can access your web page using `http://IP_ADDRESS:8080`
 
 You will show the below UI
@@ -111,11 +111,11 @@ Here you will click the webflow show case link.
 
 
 
-###Conclusion
+### Conclusion
 
 These are the very simple steps to launch a J2EE web app (spring-webflow) using github repository.
 
-###Deploy Java app now
+### Deploy Java app now
 
 <a href="https://docs.megam.io/overview/tour/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
