@@ -24,7 +24,7 @@ This tutorial will guide you in launching a J2EE web application () in MegamVert
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
+* You have to create a valid credential for accessing Megam Vertice.To know [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
 
 You have to install openssh-server for ssh access.
 
@@ -48,24 +48,9 @@ In this tutorial you will see the steps to launch the J2EE using jenkins
 ### Step-2 Launch the app
 * Go to MegamVertice Dashboard
 
-* Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
+* Rember that when you select memory its upto `2GB`
 
-* Click Java Icon.A window will pop up for your repository selection.
-
-* Pick a repository by choosing your repository.
-
-  Let us use Github: < mygithub >/java_jenkins.git
-
-* You can create new sshkey, use an existing sshkey or upload your own sshkeys too.
-
-* Launch Java App.Click Create.
-
-* Voila ! Your App is up to date.
-
-* Now that you have launched your app, you might want to launch a service (database) and bind it
-
-*Rember that when you select memory its upto `2GB`
-
+* To know how to launch App [click here](http://docs.megam.io/customapps/deploying/)
 
 #### Buildpack for java
 Java's default build pack get's going by kicking of maven. We plan to support `ant`, `gradle` in the future
@@ -90,24 +75,17 @@ Java's default build pack get's going by kicking of maven. We plan to support `a
 
 
 
-### **Step-3 Open Your Web browser**
-  You can access your web page using `http://IP_ADDRESS:8080`
+### Step-3 Access Web browser
+* You can access your web page by clicking the URL link in App Management Page
+![](/res/url.png)
 
-Then the below UI will be open
-
+* Then the below UI will be open
 ![](/content/images/2016/05/1-2.png)
 
-Select the Manager App.It asks User Name and Password
+* Select the Manager App.It asks User Name and Password
 `Username and password is "megam"`
 
 ![](/content/images/2016/05/j2.png)
-
-Here you will click the `jenkins` link.
-* (or) the url to launch jenkins
-`http://IP_ADDRESS:8080/jenkins`
-
-![](/content/images/2016/05/j3.png)
-
 
 ### Conclusion
 
