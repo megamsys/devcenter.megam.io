@@ -59,7 +59,7 @@ This initial section contains everything you need to setup cloudberry backup too
     	Display Name : Type a name for the account
 		Access key
 		Secret key
-* You can see your `Access-key` and `Secret-key` from your `profile page` in MegamVertice. ([docs.megam.io](https://docs.megam.io/overview/tour/))
+* You can see your `Access-key` and `Secret-key` from your `profile page` in MegamVertice. [docs.megam.io](https://docs.megam.io/overview/tour/)
 ![](/content/images/2016/06/cloudberry-aws-s3-account-info.png)
 
 * Click the "Advance Settings" and uncheck `Use SSL` link. Now you can see your bucket in `Bucket name` box. choose one of the bucket  you want to backup.

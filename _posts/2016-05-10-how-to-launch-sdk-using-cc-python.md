@@ -23,7 +23,7 @@ description: How to launch SDK for C/C++/Python in MegamVertice
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
 
 
 You have to install openssh-server for ssh access.
