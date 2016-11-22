@@ -16,7 +16,7 @@ This tutorial will guide you in creating an account with MegamVertice.
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>
 
 
-You can access MegamVertice by clicking on https://docs.megam.io/overview/tour/.
+You can access MegamVertice by clicking on [docs.megam.io] (https://docs.megam.io/overview/tour/).
 
 ![](/content/images/2016/05/s1-1.png)
 
