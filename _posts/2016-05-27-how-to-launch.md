@@ -1,8 +1,8 @@
 ---
-title: How to launch CouchDB in [docs.megam.io](https://docs.megam.io/overview/tour/)
+title: How to launch CouchDB in MegamVertice
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: How to launch CouchDB in [docs.megam.io](https://docs.megam.io/overview/tour/)
+description: How to launch CouchDB in MegamVertice
 ---
 ### Introduction
 
