@@ -13,7 +13,7 @@ Open Web Analytics (OWA) is an open source web analytics framework written in PH
 This tutorial will guide you in launching a php web application (Open Web Analytics) in MegamVertice.
 
 
-<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
@@ -25,8 +25,12 @@ This tutorial will guide you in launching a php web application (Open Web Analyt
 
 * You have an account on GitHub, which is a Git repository host.
 
+<<<<<<< HEAD
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/).
+=======
 * You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
 
+>>>>>>> origin/master
 
 * You have to install openssh-server for ssh access in your worstation.
 
@@ -47,19 +51,19 @@ from https://github.com/verticeapps/php_webanalytics.git
 * The Open Web Analytics repository is forked into your git repository
 
 ### Step-2 Launch the app
-1. Go to MegamVertice Dashboard
+* Go to MegamVertice Dashboard
 
-2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
+* Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
 
-4. Click PHP Icon.A window will pop up for your git repository selection.
+* Click PHP Icon.A window will pop up for your git repository selection.
 
-3. Pick a repository by choosing your repository.
+* Pick a repository by choosing your repository.
 
-  Let us use Github: < mygithub >/php_webanalytics.git
+   Let us use Github: < mygithub >/php_webanalytics.git
 
-5. You can create new sshkey or use an existing sshkey or upload your own sshkeys too.
+* You can create new sshkey or use an existing sshkey or upload your own sshkeys too.
 
-6. To launch PHP App.Click Create.
+* To launch PHP App.Click Create.
 
 * Voila ! Your App is up to date.
 
@@ -106,5 +110,5 @@ These are the very simple steps to launch a PHP web app (Open Web Analytics) usi
 
 ### Deploy PHP app now
 
-<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

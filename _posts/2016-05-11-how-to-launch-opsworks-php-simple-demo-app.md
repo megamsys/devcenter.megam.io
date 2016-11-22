@@ -12,7 +12,7 @@ AWS OpsWorks PHP is a simple demo app that can help you get started using your f
 This tutorial will guide you in launching a php web application (OpsWorks) in MegamVertice.
 
 
-<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
@@ -24,7 +24,6 @@ This tutorial will guide you in launching a php web application (OpsWorks) in Me
 * You have an account on GitHub, which is a Git repository host.
 
 * You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting)
-
 
 * You have to install openssh-server for ssh access.
 
@@ -38,26 +37,26 @@ This initial section contains everything you need to get OpsWorks PHP Simple Dem
 
 ### Step-1 Fork OpsWorks PHP Simple Demo App
 * Fork Open OpsWorks PHP Simple Demo App
-from https://github.com/verticeapps/php_simpleapp.git
+from [https://github.com/verticeapps/php_simpleapp.git](https://github.com/verticeapps/php_simpleapp.git)
 
 * You will be see the fork option in the top right corner of the git hub page.click the fork option.
 
 * The OpsWorks PHP Simple Demo App repository is forked into your git repository.
 
 ### Step-2 Launch the app
-1. Go to MegamVertice Dashboard
+* Go to MegamVertice Dashboard
 
-2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
+* Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
 
-4. Click PHP Icon.A window will pop up for your repository selection.
+* Click PHP Icon.A window will pop up for your repository selection.
 
-3. Pick a repository by choosing your git repository.
+* Pick a repository by choosing your git repository.
 
-  Let us use Github: < mygithub >/php_simpleapp.git
+   Let us use Github: < mygithub >/php_simpleapp.git
 
-5. You can create new sshkey or use an existing sshkey or upload your own sshkeys too.
+* You can create new sshkey or use an existing sshkey or upload your own sshkeys too.
 
-6. To launch PHP App.Click Create.
+* To launch PHP App.Click Create.
 
 * Voila ! Your App is up to date.
 
@@ -101,7 +100,7 @@ You can access your web page using http://IP_ADDRESS/current
 
 These are the very simple steps to launch a php web app (OpsWorks PHP Simple Demo App) using github repository.
 
-###Deploy PHP app now
+### Deploy PHP app now
 
-<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
