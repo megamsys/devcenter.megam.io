@@ -17,7 +17,6 @@ This tutorial will guide you in launching a Nodejs web application (etherpad-lit
 
 ### Prerequisites
 
-
 * You are running Ubuntu 14.04 or Linux workstation.
 
 * Git installed on your workstation, which you can do by following the [How To Install Git with Apt.](https://www.digitalocean.com/community/tutorials/how-to-install-git-on-ubuntu-14-04)
@@ -39,7 +38,7 @@ This initial section contains everything you need to get etherpad-lite running o
 
 ### Step-1 Fork etherpad-lite
 * Fork etherpad-lite
-from https://github.com/verticeapps/node_etherpad.git
+from [here](https://github.com/verticeapps/node_etherpad.git)
 
 * You will be see the fork option in the top right corner of the git hub page.click the fork option.
 
@@ -48,21 +47,7 @@ from https://github.com/verticeapps/node_etherpad.git
 ### Step-2 Launch the app
 * Go to MegamVertice Dashboard
 
-* Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamafrica supports.
-
-* Click Nodejs Icon.A window will pop up for your repository selection.
-
-* Pick a repository by choosing your git repository.
-
-  Let us use Github: < mygithub >/node_etherpad
-
-* You can create new sshkey or use an existing sshkey or upload your own sshkeys too.
-
-* To Launch Nodejs App.Click Create.
-
-* Voila ! Your App is up to date.
-
-* Now that you have launched your app, you might want to launch a service (database) and bind it
+* To know how to launch App [click here](http://docs.megam.io/customapps/deploying/)
 
 ### Start Script
 MegamVertice will look for a start script named `start`,  
@@ -71,12 +56,12 @@ ensure that your git repository have the start script file as follows.
 	!/bin/sh
 	./bin/run.sh --root
 
+### Step-3 Access Web browser
+* You can access your web page by clicking the URL link in App Management Page
+![](/res/url.png)
 
-### **Step-3 Open Your Web browser**
-You can access your web page using http://IP_ADDRESS/9001
-
-
-![](/content/images/2016/05/node.png)
+* Now you can see the below page
+![](/res/nodejs.png)
 
 ### Conclusion
 
