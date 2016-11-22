@@ -24,7 +24,7 @@ This tutorial will guide you in launching a php web application (PostageApp) in 
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
  * You have to install openssh-server for ssh access in your local system.
@@ -102,5 +102,5 @@ These are the very simple steps to launch a php web app (PostageApp) using githu
 
 #### Deploy PHP app now
 
-<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<a href="[docs.megam.io](https://docs.megam.io/overview/tour/)" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>

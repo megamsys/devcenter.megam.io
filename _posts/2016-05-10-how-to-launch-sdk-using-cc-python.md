@@ -23,7 +23,7 @@ description: How to launch SDK for C/C++/Python in MegamVertice
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
 
 
 You have to install openssh-server for ssh access.
@@ -38,7 +38,7 @@ To check the ssh is properly installed in our system
 
 This initial section contains everything you need to get c/c++ running on your server.
 
-* First, ensure the user can login to https://docs.megam.io/overview/tour/.
+* First, ensure the user can login to [docs.megam.io](https://docs.megam.io/overview/tour/).
 
 * Go to the Market Places, click the C/C++.
 

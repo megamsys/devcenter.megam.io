@@ -12,7 +12,7 @@ Jenkins is the leading open-source automation server. Built with Java, it provid
 
 This tutorial will guide you in launching a J2EE web application () in MegamVertice.
 
-<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
 
 
@@ -24,7 +24,7 @@ This tutorial will guide you in launching a J2EE web application () in MegamVert
 
 * You have an account on GitHub, which is a Git repository host.
 
-* You have to create a valid credential for accessing https://docs.megam.io/overview/tour/. [How to create an account with MegamVertice](http://devcenter.megam.io/2016/05/27/how-to-launch-ubuntu/)
+* You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/).
 
 You have to install openssh-server for ssh access.
 
@@ -38,7 +38,7 @@ In this tutorial you will see the steps to launch the J2EE using jenkins
 
 ### Step-1 Fork jenkins
 
-* Fork jenkins from https://github.com/verticeapps/java_jenkins.git
+* Fork jenkins from [here](https://github.com/verticeapps/java_jenkins.git)
 
 * You will be see the fork option in the top right corner of the git hub page.click the fork option.
 
@@ -46,19 +46,19 @@ In this tutorial you will see the steps to launch the J2EE using jenkins
 
 
 ### Step-2 Launch the app
-1. Go to MegamVertice Dashboard
+* Go to MegamVertice Dashboard
 
-2. Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
+* Click Marketplace on the top bar.Marketplace contains all the linux distros, applications, services and microservices which megamvertice supports.
 
-3. Click Java Icon.A window will pop up for your repository selection.
+* Click Java Icon.A window will pop up for your repository selection.
 
-4. Pick a repository by choosing your repository.
+* Pick a repository by choosing your repository.
 
   Let us use Github: < mygithub >/java_jenkins.git
 
-5. You can create new sshkey, use an existing sshkey or upload your own sshkeys too.
+* You can create new sshkey, use an existing sshkey or upload your own sshkeys too.
 
-6. Launch Java App.Click Create.
+* Launch Java App.Click Create.
 
 * Voila ! Your App is up to date.
 
@@ -116,5 +116,5 @@ These are the very simple steps to launch a J2EE web app (jenkins) using github 
 
 ### Deploy Java app now
 
-<a href="https://docs.megam.io/overview/tour/" target="_blank">
+<a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /></a>
