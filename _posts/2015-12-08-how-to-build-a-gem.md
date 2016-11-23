@@ -1,5 +1,6 @@
 ---
 title: How to build a Gem!
+author: thomas
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to build a Gem!
