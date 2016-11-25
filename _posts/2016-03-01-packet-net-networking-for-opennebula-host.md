@@ -1,7 +1,7 @@
 ---
 title: Packet.net networking for opennebula host
+author: thomas
 layout: post
-author: "thomas"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Packet.net networking for opennebula host
 ---

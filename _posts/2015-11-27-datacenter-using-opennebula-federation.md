@@ -10,7 +10,7 @@ The federation is performed by OpenNebula platform. The OpenNebula is an Open-so
 
 Here we are federating two already replicated Master Slave servers. to know how to replicate two servers refer the following article
 
-    http://devcenter.megam.io/2015/09/08/mysql-master-slave-replication/
+  [https://devcenter.megam.io/mysql-master-slave-replication/](https://devcenter.megam.io/mysql-master-slave-replication/)
 
 
 ###### Installing OpenNebula

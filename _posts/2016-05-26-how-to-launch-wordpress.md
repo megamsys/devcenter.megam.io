@@ -16,7 +16,7 @@ And WordPress is a free and open-source content management system (CMS) based on
 
 ##### Prerequisites
 
-You have to create a valid credential access for https://docs.megam.io/overview/tour.
+You have to create a valid credential access for [docs.megam.io](https://docs.megam.io/overview/tour/).
 
 You have to install openssh-server for ssh access.
 
@@ -30,7 +30,7 @@ Check SSH working properly
 
 This initial section contains everything you need to get WordPress and running on your server.
 
-First, ensure the user to login our [site]([docs.megam.io](https://docs.megam.io/overview/tour/)) .
+First, ensure the user to login our [docs.megam.io](https://docs.megam.io/overview/tour/) .
 
 Go to the Market Places to click the create a new `WordPress on Collaboration`.
 

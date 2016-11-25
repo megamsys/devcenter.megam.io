@@ -31,7 +31,7 @@ This tutorial will guide you in setting up a **S3 Browser windows client on your
 
 * You have to create a valid credential for accessing [docs.megam.io](https://docs.megam.io/overview/tour/). [How to create an account with MegamVertice](https://devcenter.megam.io/getting-started-in-megamvertice-open-source-cloud-hosting).
 
-* You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](http://devcenter.megam.io/2016/06/17/getting-started-atharva-storage-in-megamvertice/).
+* You have to create an atharva storage account with MegamVertice. [How to create an atharva account with MegamVertice](http://devcenter.megam.io/getting-started-atharva-storage-in-megamvertice/).
 
 
 ### Connecting  S3 Browser  with Atharva (Ceph object storage) MegamVertice

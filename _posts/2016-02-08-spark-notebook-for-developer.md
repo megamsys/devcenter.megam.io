@@ -61,7 +61,7 @@ The creation of Avro and Play/Akka HTTP powered web services that use the result
 
 The creation of repositories and indexes of the analyses and services
 
-###Deploy your Spark-Notebook now
+#### Deploy your Spark-Notebook now
 
 <a href="https://docs.megam.io/installation/prequisites/" target="_blank">
 <img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png" alt="wordpres button" /></a>

@@ -1,5 +1,6 @@
 ---
 title: Package Upgrading in Trusty
+author: vijaykanth
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Package Upgrading in Trusty
