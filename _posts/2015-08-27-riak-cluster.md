@@ -1,7 +1,7 @@
 ---
 title: Clustering Riak
 layout: post
-author: "vijaykanth"
+author: "vijayakanth"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Clustering Riak
 ---

@@ -5,7 +5,7 @@ layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Hadoop/Spark multi-node setup
 ---
-This is an installation guide for Apache Hadoop and Apache Spark on a multi node setup. We will use  Cloudera v5 as it has the packages for debian. You are free to use Hortonworks ,MapR (or) straight up zips from [Hadoop](hadoop.apache.org), [Spark](spark.apache.org).
+This is an installation guide for Apache Hadoop and Apache Spark on a multi node setup. We will use  Cloudera v5 as it has the packages for debian. You are free to use Hortonworks ,MapR (or) straight up zips from [Hadoop](https://hadoop.apache.org/), [Spark](https://spark.apache.org/).
 
 
 Lets clear the terminology of a node. A node means individual servers, Virtual Machines (VMs) (or) Micro services.
@@ -20,8 +20,8 @@ In a multinode setup, we will deploy a topology of
 
 The definition of Hadoop namenode, datanode, Spark can be read from the links here.
 
-[Apache Spark](spark.apache.org)
-[Hadoop](hadoop.apache.org)
+[Apache Spark](https://spark.apache.org)
+[Hadoop](https://hadoop.apache.org)
 
 ### In all the nodes
 

@@ -1,5 +1,6 @@
 ---
 title: How to launch CouchDB in MegamVertice
+author: ranjitha
 layout: post
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: How to launch CouchDB in MegamVertice

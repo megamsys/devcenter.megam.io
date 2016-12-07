@@ -110,9 +110,9 @@ send the dumpfile.sql to slave server.
                    or
        $ sftp server2@192.168.1.13
 
-######Install and Configure MySQL in Slave Server
+###### Install and Configure MySQL in Slave Server
 
-   	 $ sudo apt-get install mysql-server
+   	   $ sudo apt-get install mysql-server
 
 
  After install MYSQL, have to configure it,

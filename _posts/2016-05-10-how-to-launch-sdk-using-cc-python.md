@@ -168,4 +168,4 @@ These are the very simple steps to launch SDK  using C/C++/Python.
 #### Deploy your C/C++/Python SDK now
 
 <a href="https://docs.megam.io/installation/prequisites/"target="_blank">
-<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" />
+<img src="https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png " alt="wordpres button" /> </a>

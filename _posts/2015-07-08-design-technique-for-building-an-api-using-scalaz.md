@@ -6,7 +6,7 @@ og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Design technique for building an API using scalaz
 ---
 
-In [Part1](http://devcenter.megam.io/2015/03/18/rest_api_playframework/) we looked at how does the general RESTful API design for the input request look like.
+In [Part1](https://devcenter.megam.io/rest_api_playframework/) we looked at how does the general RESTful API design for the input request look like.
 
 We will use functional programming design technique - scalaz library and apply it to the design we have so far.
 

@@ -69,7 +69,7 @@ Branch management is an important part of the Git workflow. You can manage branc
 
 >-The pull request dashboard and the repository pull request list support a **wide range of filtering and sorting controls.** Use them to narrow down the list to the pull requests you're interested in.
 
-####### REVIEWING PROPOSED CHANGES :
+###### REVIEWING PROPOSED CHANGES :
 >-**When you receive a pull request, the first thing to do is review the set of proposed changes.** Pull requests are tightly integrated with the underlying git repository, so **you can see exactly what commits would be merged should the request be accepted**.
 
 >-You can also review the cumulative differences of all file changes across all commits, either split or unified.
@@ -78,7 +78,7 @@ Branch management is an important part of the Git workflow. You can manage branc
 >-**Merge a pull request into the upstream branch when work is completed.** Anyone with push access to the repository can complete the merge.
 >-If you decide **you don't want the changes in your branch to be merged to the upstream branch, you can also close the pull request without merging.**
 
-####### MERGING A PULL REQUEST USING THE GITHUB WEB INTERFACE :
+###### MERGING A PULL REQUEST USING THE GITHUB WEB INTERFACE :
 >-If the merge will not have any conflicts, you can merge the pull request online. Follow these steps:
 
 >>**STEP 1:** In any repository's right sidebar, **click Pull Requests.**

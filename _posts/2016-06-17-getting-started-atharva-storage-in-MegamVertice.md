@@ -37,9 +37,9 @@ This tutorial will guide you creating atharva storage  in MegamVertice.
 
 * Upload a files using windows and ubuntu using following guide.
 
-[How to upload a files from windows to MegamVertice](http://devcenter.megam.io/2016/06/16/atharva-ceph-windows/).
+[How to upload a files from windows to MegamVertice](https://devcenter.megam.io/atharva-ceph-windows).
 
-[How to deploy private docker registry in MegamVertice](http://devcenter.megam.io/2016/06/10/private-registry-along-with-ceph/).
+[How to deploy private docker registry in MegamVertice](http://devcenter.megam.io/private-registry-along-with-ceph/).
 
 * Let us verify if the files is uploaded
 

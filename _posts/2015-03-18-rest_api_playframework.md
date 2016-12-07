@@ -5,7 +5,7 @@ author: "indykish"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Beautiful API using Scala based Playframework
 ---
-We are going to build a beautiful REST API based on a modern [playframework](www.playframework.com) using [Scala](scala-lang.org) in a functional way.
+We are going to build a beautiful REST API based on a modern [playframework](https://playframework.com/) using [Scala](https://scala-lang.org) in a functional way.
 
 Let us start by understanding the concept of REST in a simpler sense.
 
@@ -142,33 +142,22 @@ We saw bits and pieces on how everything comes together. Let us look at how to i
 
 ## Account
 
-/accounts
+    /accounts
+
 Let us implement the simple API which has the following requirements
 
+|:--------------------------------|:----------------------:|----------------------------------------:|
+| HTTP Verb                       |    REST API            |  Description                            |
+|:--------------------------------|-----------------------:|----------------------------------------:|
+| GET                             |  accounts              | GET the account information of the user |
+|:--------------------------------|:----------------------:|:----------------------------------------|
+| POST                            |  accounts              | Posts a new account                     |
+|:--------------------------------|:----------------------:|:----------------------------------------|
 
-<table>
-    <tr>
-        <td>HTTP Verb</td>
-        <td>REST API</td>
-        <td>Description</td>
-    </tr>
-    <tr>
-        <td>GET</td>
-        <td>accounts</td>
-        <td>GET the account information of the user
-    </tr>
-    <tr>
-        <td>POST</td>
-        <td>accounts</td>
-        <td>Posts a new account</td>
-    </tr>
-
-
-</table>
 
 Great. For both of the functions we need a controller.
 
-# AccountsController
+### AccountsController
 
     import controllers.funnel.FunnelErrors._
     import controllers.funnel.FunnelResponse
@@ -202,7 +191,7 @@ You can see that we are using the APIAuthElement here which means we are indicat
 Click here for full source code of the [AccountsController](https://github.com/megamsys/megam_gateway/blob/0.7/app/controllers/Accounts.scala).
 
 
-###POST
+### POST
 
 /accounts
 

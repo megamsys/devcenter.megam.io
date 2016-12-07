@@ -1,6 +1,7 @@
 ---
 title: Getting more native, welcome scyllaDB
 layout: post
+author: rajthilak
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
 description: Getting more native, welcome scyllaDB
 ---
