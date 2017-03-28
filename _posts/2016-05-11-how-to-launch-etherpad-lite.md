@@ -49,11 +49,10 @@ from [here](https://github.com/verticeapps/node_etherpad.git)
 * To know how to launch App [click here](http://docs.megam.io/customapps/deploying/)
 
 ### Start Script
-MegamVertice will look for a start script named `start`,  
-ensure that your git repository have the start script file as follows.
+MegamVertice will look for a file  named `Procfile`,  
+ensure that your git repository have the Procfile  file as follows.
 
-	!/bin/sh
-	./bin/run.sh --root
+	web: sh bin/run.sh --root
 
 ### Step-3 Access Web browser
 * You can access your web page by clicking the URL link in App Management Page
