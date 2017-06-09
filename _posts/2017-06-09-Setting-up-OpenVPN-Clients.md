@@ -1,20 +1,16 @@
 ---
-title: "Setting up OpenVPN Clients"
+title: "Part 2- Setting up OpenVPN Clients"
 layout: post
 author: "saravanan"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
-description: "How to launch OpenVPN Client "
+description: "How to setup OpenVPN Client "
 ---
-
 
 ### Introduction
 
-A Virtual Private Network (VPN) allows you to traverse untrusted networks privately and securely as if you were on a private network. The traffic emerges from the VPN server and continues its journey to the destination.
+OpenVPN is based on a client/server architecture. It must be installed on both VPN extremities, one is designated as server the other one as client.
 
-When combined with HTTPS connections, this setup allows you to secure your wireless logins and transactions.
-OpenVPN is a full-featured open source Secure Socket Layer (SSL) VPN solution that accommodates a wide range of configurations.
-
- This tutorial will keep the installation and configuration steps as simple as possible.
+ This tutorial will help to install and configuration steps done in the client.
 
 [![img](https://s3-ap-southeast-1.amazonaws.com/megampub/images/vertice/DEPLOY-TO-MEGAM-VERTICE-BIG.png)](https://docs.megam.io/installation/prequisites/)
 
@@ -22,57 +18,46 @@ OpenVPN is a full-featured open source Secure Socket Layer (SSL) VPN solution th
 
 To follow this tutorial :
 
-* you will Ubuntu 16.04 in your computer.
+* You will Ubuntu 16.04 in your computer.
 
+* For the server credentials contact our administration team(https://drive.google.com/drive/folders/0Bw_s_Yta3cY8OGtObDNJNmpJbHM).
 
- ### Step 1: Install the Client Configuration
+### Step 1: Install the Client Configuration
 
 * The OpenVPN connection will be called whatever you named the .ovpn file. In our example, this means that the connection will be called client1.ovpn for the first client file we generated.
 
 * On Ubuntu or Debian, you can install it just as you did on the server by typing.
 
-      client$ sudo apt-get update
-      client$ sudo apt-get install openvpn
-
-* On CentOS you can enable the EPEL repositories and then install it by typing.
-
-      client$  sudo yum install epel-release
-      client$  sudo yum install openvpn
-
-* Configuring
+      $ sudo apt-get update
+      $ sudo apt-get install openvpn
 
 * Check to see if your distribution includes a /etc/openvpn/update-resolv-conf script.
 
       client$ ls /etc/openvpn
-
-      Output
+      Output:
       update-resolve-conf
 
-* Next, edit the OpenVPN client configuration file you transfered.
+### Step 2: Send client configuration files from OpenVPN server into client
 
-      client$ nano client1.ovpn
-
-Uncomment the three lines we placed in to adjust the DNS settings if you were able to find an update-resolv-conf file
-
-      script-security 2
-      up /etc/openvpn/update-resolv-conf
-      down /etc/openvpn/update-resolv-conf
-
-* Save and close the file.
+      local $ sftp user@openvpn_server_ip:client-configs/files/client1.ovpn ~/
+      local $ sftp user@openvpn_server_ip:openvpn-ca/keys/ca.crt ~/
+      local $ sftp user@openvpn_server_ip:openvpn-ca/keys/client.key ~/
+      local $ sftp user@openvpn_server_ip:openvpn-ca/keys/client.crt ~/
 
 * Now, you can connect to the VPN by just pointing the openvpn command to the client configuration file:
 
       client$ sudo openvpn --config client1.ovpn
 
-* This should connect you to your server.
+* This should connect you to your OpenVPN server.
 
-### Step 2: Test Your VPN Connection
+### Step 3: Test Your VPN Connection
 
-* Once everything is installed, a simple check confirms everything is working properly. Without having a VPN connection enabled, open a browser and go to DNSLeakTest.
+* Check your local machine connected into server. Open a terminal and type `ifconfig tun0 `. It will shows OpenVPN bridge details. Now our local machine and server was connected via private ipaddress. You can `SSH` using your credentials.
 
-* The site will return the IP address assigned by your internet service provider and as you appear to the rest of the world. To check your DNS settings through the same website, click on Extended Test and it will tell you which DNS servers you are using.
-
-* Now connect the OpenVPN client to your Droplet's VPN and refresh the browser. The completely different IP address of your VPN server should now appear. That is now how you appear to the world. Again, DNSLeakTest's Extended Test will check your DNS settings and confirm you are now using the DNS resolvers pushed by your VPN.
+      4: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 100
+      link/none
+      inet 10.8.0.1 peer 10.8.0.2/32 scope global tun0
+      valid_lft forever preferred_lft forever
 
 ### Conclusion
 
