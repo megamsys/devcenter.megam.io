@@ -20,13 +20,13 @@ To follow this tutorial :
 
 * You will need Ubuntu 16.04 in your server that is designated as `OpenVPN client` in the below discussion.
 
-* You have successfully finished [Part 1: Setting up OpenVPN Server](https://devcenter.megam.io/setting-up-openvpn-server) and have the credentials to be shared with the client machine. 
+* You have successfully finished [Part 1: Setting up OpenVPN Server](https://devcenter.megam.io/setting-up-openvpn-server) and have the credentials to be shared with the client machine.
 
 * In our case we will use the credentials stored [here](https://drive.google.com/drive/folders/0Bw_s_Yta3cY8OGtObDNJNmpJbHM).
 
-### Step 1: Install the Client Configuration
+### Step 1: Install the OpenVPN
 
-* On Ubuntu or Debian, you can install it just as you did on the server by typing.
+* On Ubuntu or Debian, you can install it by typing.
 
       $ sudo apt-get update
       $ sudo apt-get install openvpn
@@ -38,7 +38,7 @@ To follow this tutorial :
 
 ### Step 2: Send configuration files from your local into `OpenVPN client`
 
-If you have the copy of client.tar.gz, then untar it in your local machine.
+If you have the copy of `client.tar.gz`, then untar it in your local machine.
 
 Let us send those files into your `OpenVPN client`. These instruction are valid for a linux environment.
 
@@ -49,7 +49,9 @@ Let us send those files into your `OpenVPN client`. These instruction are valid 
 
 ### Step 3: SSH into  from your local into `OpenVPN client`
 
-* Now, you can connect to the VPN by running the command:
+* Now, let us establish a private tunnel between `OpenVPN client` and your server.
+
+Run the command in `OpenVPN client`:
 
       client$ sudo openvpn --config /etc/openvpn/client1.ovpn
 
@@ -59,12 +61,16 @@ Let us send those files into your `OpenVPN client`. These instruction are valid 
 
 * Now connect your local laptop as `OpenVPN client` by doing Step 2, 3. We now have the following.
 
-* Check your local laptop connected into server. Open a terminal and type `ifconfig tun0 `. It will shows OpenVPN bridge details. Now our local laptop and server was connected via private ipaddress. You can `SSH` using your credentials.
+![](/res/images/openvpn_client.png)
+
+* Check your local laptop connected which is connected into `OpenVPM server`. Open a terminal and type `ifconfig tun0 `. It will show the OpenVPN bridge details.
 
       4: tun0: <POINTOPOINT,MULTICAST,NOARP,UP,LOWER_UP> mtu 1500 qdisc noqueue state UNKNOWN group default qlen 100
       link/none
       inet 10.8.0.1 peer 10.8.0.2/32 scope global tun0
       valid_lft forever preferred_lft forever
+
+Now our local laptop and `OpenVPN server` are connected via private ipaddress. You can `SSH` using the private ip and your credentials of the `OpenVPN server`.
 
 ### Conclusion
 
