@@ -36,9 +36,9 @@ To follow this tutorial :
       $ ls /etc/openvpn           
       update-resolve-conf
 
-### Step 2: Send configuration files from your local into `OpenVPN client`
+### Step 2: Send configuration files from your local into OpenVPN client
 
-If you have the copy of `client.tar.gz`, then untar it in your local machine.
+If you have the copy of `client.tar.xz` received via email, then untar it in your local machine.
 
 Let us send those files into your `OpenVPN client`. These instruction are valid for a linux environment.
 
@@ -47,7 +47,7 @@ Let us send those files into your `OpenVPN client`. These instruction are valid 
       local $ sftp user@openvpn_client_ip:openvpn-ca/keys/client.key ~/
       local $ sftp user@openvpn_client_ip:openvpn-ca/keys/client.crt ~/
 
-### Step 3: SSH into  from your local into `OpenVPN client`
+### Step 3: SSH  from your local into OpenVPN client
 
 * Now, let us establish a private tunnel between `OpenVPN client` and your server.
 
