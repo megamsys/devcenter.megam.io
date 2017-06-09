@@ -1,5 +1,5 @@
 ---
-title: "Setting up OpenVPN Server"
+title: "Part 1-Setting up OpenVPN Server"
 layout: post
 author: "saravanan"
 og_image_url: "https://devcenter.megam.io/res/gotalk-intro.png"
